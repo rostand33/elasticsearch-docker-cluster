@@ -360,7 +360,7 @@ The dataset includes:
 
 Total: 850+ indexed documents
 
-###Usage
+### Usage
 
 Create the indices:
 
