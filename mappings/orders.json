@@ -1,0 +1,31 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 1
+  },
+  "mappings": {
+    "properties": {
+      "order_id": {
+        "type": "keyword"
+      },
+      "user_id": {
+        "type": "keyword"
+      },
+      "product_id": {
+        "type": "keyword"
+      },
+      "quantity": {
+        "type": "integer"
+      },
+      "total_price": {
+        "type": "float"
+      },
+      "status": {
+        "type": "keyword"
+      },
+      "order_date": {
+        "type": "date"
+      }
+    }
+  }
+}
