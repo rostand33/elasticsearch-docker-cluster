@@ -6,7 +6,6 @@
 # =========================
 # Elasticsearch data
 # =========================
-data/
 esdata/
 elasticsearch-data/
 

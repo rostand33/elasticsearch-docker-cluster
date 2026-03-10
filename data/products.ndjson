@@ -1,0 +1,200 @@
+{"index": {"_index": "products", "_id": "p1000"}}
+{"product_id": "p1000", "name": "Product 0", "category": "electronics", "brand": "Zenith", "price": 61.21, "in_stock": false, "created_at": "2025-09-17T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1001"}}
+{"product_id": "p1001", "name": "Product 1", "category": "books", "brand": "TechPro", "price": 563.4, "in_stock": false, "created_at": "2025-09-09T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1002"}}
+{"product_id": "p1002", "name": "Product 2", "category": "gaming", "brand": "Vertex", "price": 991.68, "in_stock": false, "created_at": "2025-11-25T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1003"}}
+{"product_id": "p1003", "name": "Product 3", "category": "gaming", "brand": "Apex", "price": 599.35, "in_stock": true, "created_at": "2026-02-03T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1004"}}
+{"product_id": "p1004", "name": "Product 4", "category": "accessories", "brand": "Apex", "price": 298.06, "in_stock": false, "created_at": "2025-03-02T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1005"}}
+{"product_id": "p1005", "name": "Product 5", "category": "books", "brand": "Apex", "price": 532.11, "in_stock": true, "created_at": "2025-02-15T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1006"}}
+{"product_id": "p1006", "name": "Product 6", "category": "accessories", "brand": "TechPro", "price": 691.7, "in_stock": true, "created_at": "2025-01-18T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1007"}}
+{"product_id": "p1007", "name": "Product 7", "category": "gaming", "brand": "TechPro", "price": 705.92, "in_stock": true, "created_at": "2025-12-02T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1008"}}
+{"product_id": "p1008", "name": "Product 8", "category": "electronics", "brand": "Zenith", "price": 106.41, "in_stock": true, "created_at": "2025-10-10T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1009"}}
+{"product_id": "p1009", "name": "Product 9", "category": "books", "brand": "Vertex", "price": 1287.71, "in_stock": true, "created_at": "2025-08-23T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1010"}}
+{"product_id": "p1010", "name": "Product 10", "category": "clothing", "brand": "Apex", "price": 1096.58, "in_stock": false, "created_at": "2025-05-12T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1011"}}
+{"product_id": "p1011", "name": "Product 11", "category": "gaming", "brand": "TechPro", "price": 562.16, "in_stock": false, "created_at": "2025-06-20T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1012"}}
+{"product_id": "p1012", "name": "Product 12", "category": "gaming", "brand": "Nova", "price": 683.06, "in_stock": false, "created_at": "2025-10-18T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1013"}}
+{"product_id": "p1013", "name": "Product 13", "category": "clothing", "brand": "Apex", "price": 1271.93, "in_stock": false, "created_at": "2025-09-24T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1014"}}
+{"product_id": "p1014", "name": "Product 14", "category": "clothing", "brand": "Zenith", "price": 1939.69, "in_stock": true, "created_at": "2026-01-17T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1015"}}
+{"product_id": "p1015", "name": "Product 15", "category": "electronics", "brand": "TechPro", "price": 763.95, "in_stock": false, "created_at": "2026-01-29T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1016"}}
+{"product_id": "p1016", "name": "Product 16", "category": "accessories", "brand": "Apex", "price": 1255.22, "in_stock": false, "created_at": "2025-02-02T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1017"}}
+{"product_id": "p1017", "name": "Product 17", "category": "books", "brand": "Zenith", "price": 1980.0, "in_stock": true, "created_at": "2025-02-06T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1018"}}
+{"product_id": "p1018", "name": "Product 18", "category": "clothing", "brand": "Vertex", "price": 1684.76, "in_stock": false, "created_at": "2026-01-31T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1019"}}
+{"product_id": "p1019", "name": "Product 19", "category": "books", "brand": "TechPro", "price": 863.03, "in_stock": true, "created_at": "2025-06-15T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1020"}}
+{"product_id": "p1020", "name": "Product 20", "category": "clothing", "brand": "Zenith", "price": 1229.1, "in_stock": true, "created_at": "2025-01-20T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1021"}}
+{"product_id": "p1021", "name": "Product 21", "category": "gaming", "brand": "Nova", "price": 1223.76, "in_stock": true, "created_at": "2025-09-11T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1022"}}
+{"product_id": "p1022", "name": "Product 22", "category": "clothing", "brand": "Vertex", "price": 1121.07, "in_stock": false, "created_at": "2025-06-23T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1023"}}
+{"product_id": "p1023", "name": "Product 23", "category": "accessories", "brand": "Vertex", "price": 1523.17, "in_stock": true, "created_at": "2025-03-03T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1024"}}
+{"product_id": "p1024", "name": "Product 24", "category": "gaming", "brand": "TechPro", "price": 1829.46, "in_stock": true, "created_at": "2025-11-10T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1025"}}
+{"product_id": "p1025", "name": "Product 25", "category": "books", "brand": "Vertex", "price": 136.95, "in_stock": true, "created_at": "2025-07-21T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1026"}}
+{"product_id": "p1026", "name": "Product 26", "category": "electronics", "brand": "TechPro", "price": 1504.77, "in_stock": true, "created_at": "2025-08-28T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1027"}}
+{"product_id": "p1027", "name": "Product 27", "category": "accessories", "brand": "Vertex", "price": 1829.76, "in_stock": false, "created_at": "2025-11-17T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1028"}}
+{"product_id": "p1028", "name": "Product 28", "category": "gaming", "brand": "Vertex", "price": 153.71, "in_stock": false, "created_at": "2025-09-21T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1029"}}
+{"product_id": "p1029", "name": "Product 29", "category": "clothing", "brand": "Nova", "price": 48.3, "in_stock": false, "created_at": "2025-07-20T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1030"}}
+{"product_id": "p1030", "name": "Product 30", "category": "accessories", "brand": "Vertex", "price": 28.05, "in_stock": false, "created_at": "2025-01-30T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1031"}}
+{"product_id": "p1031", "name": "Product 31", "category": "accessories", "brand": "TechPro", "price": 93.0, "in_stock": false, "created_at": "2025-01-21T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1032"}}
+{"product_id": "p1032", "name": "Product 32", "category": "electronics", "brand": "TechPro", "price": 1270.64, "in_stock": false, "created_at": "2025-10-07T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1033"}}
+{"product_id": "p1033", "name": "Product 33", "category": "electronics", "brand": "Apex", "price": 1201.86, "in_stock": false, "created_at": "2025-02-20T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1034"}}
+{"product_id": "p1034", "name": "Product 34", "category": "clothing", "brand": "TechPro", "price": 124.02, "in_stock": true, "created_at": "2025-03-30T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1035"}}
+{"product_id": "p1035", "name": "Product 35", "category": "accessories", "brand": "Vertex", "price": 1357.76, "in_stock": false, "created_at": "2025-12-21T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1036"}}
+{"product_id": "p1036", "name": "Product 36", "category": "books", "brand": "Apex", "price": 113.42, "in_stock": false, "created_at": "2025-07-04T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1037"}}
+{"product_id": "p1037", "name": "Product 37", "category": "books", "brand": "TechPro", "price": 1462.79, "in_stock": false, "created_at": "2025-09-20T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1038"}}
+{"product_id": "p1038", "name": "Product 38", "category": "gaming", "brand": "TechPro", "price": 364.46, "in_stock": false, "created_at": "2025-09-15T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1039"}}
+{"product_id": "p1039", "name": "Product 39", "category": "clothing", "brand": "TechPro", "price": 1447.7, "in_stock": false, "created_at": "2025-11-23T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1040"}}
+{"product_id": "p1040", "name": "Product 40", "category": "books", "brand": "Zenith", "price": 966.2, "in_stock": false, "created_at": "2025-05-02T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1041"}}
+{"product_id": "p1041", "name": "Product 41", "category": "books", "brand": "TechPro", "price": 1218.61, "in_stock": false, "created_at": "2025-06-10T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1042"}}
+{"product_id": "p1042", "name": "Product 42", "category": "clothing", "brand": "Apex", "price": 767.07, "in_stock": true, "created_at": "2025-09-20T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1043"}}
+{"product_id": "p1043", "name": "Product 43", "category": "gaming", "brand": "Apex", "price": 1256.62, "in_stock": true, "created_at": "2025-09-13T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1044"}}
+{"product_id": "p1044", "name": "Product 44", "category": "accessories", "brand": "Vertex", "price": 1962.87, "in_stock": false, "created_at": "2025-05-21T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1045"}}
+{"product_id": "p1045", "name": "Product 45", "category": "electronics", "brand": "Vertex", "price": 462.52, "in_stock": true, "created_at": "2025-04-20T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1046"}}
+{"product_id": "p1046", "name": "Product 46", "category": "books", "brand": "Nova", "price": 363.0, "in_stock": false, "created_at": "2026-02-02T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1047"}}
+{"product_id": "p1047", "name": "Product 47", "category": "books", "brand": "Vertex", "price": 1283.93, "in_stock": false, "created_at": "2025-06-30T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1048"}}
+{"product_id": "p1048", "name": "Product 48", "category": "gaming", "brand": "TechPro", "price": 1153.26, "in_stock": true, "created_at": "2026-02-05T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1049"}}
+{"product_id": "p1049", "name": "Product 49", "category": "gaming", "brand": "Apex", "price": 1833.67, "in_stock": false, "created_at": "2025-11-21T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1050"}}
+{"product_id": "p1050", "name": "Product 50", "category": "electronics", "brand": "TechPro", "price": 999.3, "in_stock": false, "created_at": "2025-11-29T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1051"}}
+{"product_id": "p1051", "name": "Product 51", "category": "accessories", "brand": "TechPro", "price": 1789.76, "in_stock": true, "created_at": "2026-01-23T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1052"}}
+{"product_id": "p1052", "name": "Product 52", "category": "gaming", "brand": "Nova", "price": 972.67, "in_stock": true, "created_at": "2025-04-01T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1053"}}
+{"product_id": "p1053", "name": "Product 53", "category": "books", "brand": "Apex", "price": 658.21, "in_stock": false, "created_at": "2025-06-07T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1054"}}
+{"product_id": "p1054", "name": "Product 54", "category": "gaming", "brand": "Zenith", "price": 905.98, "in_stock": false, "created_at": "2026-02-02T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1055"}}
+{"product_id": "p1055", "name": "Product 55", "category": "accessories", "brand": "Vertex", "price": 250.17, "in_stock": true, "created_at": "2025-10-30T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1056"}}
+{"product_id": "p1056", "name": "Product 56", "category": "electronics", "brand": "Zenith", "price": 1200.9, "in_stock": false, "created_at": "2025-04-23T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1057"}}
+{"product_id": "p1057", "name": "Product 57", "category": "gaming", "brand": "Apex", "price": 1440.64, "in_stock": true, "created_at": "2025-01-05T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1058"}}
+{"product_id": "p1058", "name": "Product 58", "category": "electronics", "brand": "Zenith", "price": 1579.78, "in_stock": false, "created_at": "2025-06-16T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1059"}}
+{"product_id": "p1059", "name": "Product 59", "category": "books", "brand": "Vertex", "price": 1050.19, "in_stock": true, "created_at": "2025-03-17T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1060"}}
+{"product_id": "p1060", "name": "Product 60", "category": "electronics", "brand": "Zenith", "price": 1462.7, "in_stock": false, "created_at": "2025-01-26T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1061"}}
+{"product_id": "p1061", "name": "Product 61", "category": "electronics", "brand": "Nova", "price": 1576.99, "in_stock": false, "created_at": "2025-04-05T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1062"}}
+{"product_id": "p1062", "name": "Product 62", "category": "electronics", "brand": "TechPro", "price": 1130.44, "in_stock": false, "created_at": "2025-11-06T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1063"}}
+{"product_id": "p1063", "name": "Product 63", "category": "books", "brand": "Nova", "price": 1946.28, "in_stock": true, "created_at": "2025-07-17T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1064"}}
+{"product_id": "p1064", "name": "Product 64", "category": "electronics", "brand": "TechPro", "price": 1172.76, "in_stock": true, "created_at": "2025-07-12T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1065"}}
+{"product_id": "p1065", "name": "Product 65", "category": "gaming", "brand": "Nova", "price": 217.7, "in_stock": true, "created_at": "2025-06-02T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1066"}}
+{"product_id": "p1066", "name": "Product 66", "category": "accessories", "brand": "Apex", "price": 251.94, "in_stock": true, "created_at": "2025-01-02T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1067"}}
+{"product_id": "p1067", "name": "Product 67", "category": "books", "brand": "TechPro", "price": 1553.58, "in_stock": false, "created_at": "2025-02-19T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1068"}}
+{"product_id": "p1068", "name": "Product 68", "category": "gaming", "brand": "Vertex", "price": 1312.0, "in_stock": true, "created_at": "2025-08-22T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1069"}}
+{"product_id": "p1069", "name": "Product 69", "category": "gaming", "brand": "TechPro", "price": 619.82, "in_stock": true, "created_at": "2025-06-23T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1070"}}
+{"product_id": "p1070", "name": "Product 70", "category": "accessories", "brand": "Apex", "price": 896.6, "in_stock": true, "created_at": "2025-11-23T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1071"}}
+{"product_id": "p1071", "name": "Product 71", "category": "gaming", "brand": "Vertex", "price": 460.56, "in_stock": true, "created_at": "2025-01-16T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1072"}}
+{"product_id": "p1072", "name": "Product 72", "category": "electronics", "brand": "TechPro", "price": 224.85, "in_stock": false, "created_at": "2025-01-01T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1073"}}
+{"product_id": "p1073", "name": "Product 73", "category": "electronics", "brand": "Nova", "price": 1013.69, "in_stock": true, "created_at": "2025-12-29T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1074"}}
+{"product_id": "p1074", "name": "Product 74", "category": "books", "brand": "Apex", "price": 1321.42, "in_stock": false, "created_at": "2025-03-20T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1075"}}
+{"product_id": "p1075", "name": "Product 75", "category": "clothing", "brand": "Apex", "price": 475.27, "in_stock": true, "created_at": "2025-07-10T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1076"}}
+{"product_id": "p1076", "name": "Product 76", "category": "gaming", "brand": "Vertex", "price": 1031.22, "in_stock": true, "created_at": "2025-03-30T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1077"}}
+{"product_id": "p1077", "name": "Product 77", "category": "gaming", "brand": "Apex", "price": 586.5, "in_stock": true, "created_at": "2025-02-02T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1078"}}
+{"product_id": "p1078", "name": "Product 78", "category": "clothing", "brand": "Nova", "price": 263.64, "in_stock": true, "created_at": "2025-04-04T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1079"}}
+{"product_id": "p1079", "name": "Product 79", "category": "gaming", "brand": "Nova", "price": 378.99, "in_stock": false, "created_at": "2025-06-13T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1080"}}
+{"product_id": "p1080", "name": "Product 80", "category": "gaming", "brand": "Vertex", "price": 280.01, "in_stock": false, "created_at": "2025-03-31T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1081"}}
+{"product_id": "p1081", "name": "Product 81", "category": "accessories", "brand": "Zenith", "price": 1768.3, "in_stock": true, "created_at": "2025-07-13T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1082"}}
+{"product_id": "p1082", "name": "Product 82", "category": "clothing", "brand": "Nova", "price": 270.89, "in_stock": false, "created_at": "2025-10-18T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1083"}}
+{"product_id": "p1083", "name": "Product 83", "category": "accessories", "brand": "Vertex", "price": 1038.41, "in_stock": true, "created_at": "2026-01-10T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1084"}}
+{"product_id": "p1084", "name": "Product 84", "category": "accessories", "brand": "TechPro", "price": 978.74, "in_stock": false, "created_at": "2025-11-14T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1085"}}
+{"product_id": "p1085", "name": "Product 85", "category": "clothing", "brand": "Zenith", "price": 1711.19, "in_stock": false, "created_at": "2025-10-19T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1086"}}
+{"product_id": "p1086", "name": "Product 86", "category": "clothing", "brand": "TechPro", "price": 703.46, "in_stock": false, "created_at": "2025-11-02T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1087"}}
+{"product_id": "p1087", "name": "Product 87", "category": "electronics", "brand": "Vertex", "price": 1729.75, "in_stock": false, "created_at": "2025-08-16T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1088"}}
+{"product_id": "p1088", "name": "Product 88", "category": "electronics", "brand": "TechPro", "price": 900.66, "in_stock": true, "created_at": "2025-01-10T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1089"}}
+{"product_id": "p1089", "name": "Product 89", "category": "books", "brand": "Vertex", "price": 803.53, "in_stock": false, "created_at": "2025-04-22T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1090"}}
+{"product_id": "p1090", "name": "Product 90", "category": "electronics", "brand": "TechPro", "price": 787.5, "in_stock": true, "created_at": "2025-05-08T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1091"}}
+{"product_id": "p1091", "name": "Product 91", "category": "clothing", "brand": "TechPro", "price": 1524.68, "in_stock": false, "created_at": "2025-04-17T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1092"}}
+{"product_id": "p1092", "name": "Product 92", "category": "electronics", "brand": "Nova", "price": 1020.06, "in_stock": true, "created_at": "2026-01-27T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1093"}}
+{"product_id": "p1093", "name": "Product 93", "category": "books", "brand": "TechPro", "price": 1843.45, "in_stock": false, "created_at": "2025-09-18T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1094"}}
+{"product_id": "p1094", "name": "Product 94", "category": "accessories", "brand": "TechPro", "price": 206.34, "in_stock": true, "created_at": "2025-08-23T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1095"}}
+{"product_id": "p1095", "name": "Product 95", "category": "clothing", "brand": "Zenith", "price": 1322.04, "in_stock": true, "created_at": "2025-03-23T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1096"}}
+{"product_id": "p1096", "name": "Product 96", "category": "books", "brand": "Nova", "price": 1287.47, "in_stock": true, "created_at": "2025-07-20T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1097"}}
+{"product_id": "p1097", "name": "Product 97", "category": "accessories", "brand": "TechPro", "price": 980.57, "in_stock": true, "created_at": "2025-03-23T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1098"}}
+{"product_id": "p1098", "name": "Product 98", "category": "clothing", "brand": "Vertex", "price": 36.8, "in_stock": false, "created_at": "2026-01-29T00:00:00Z"}
+{"index": {"_index": "products", "_id": "p1099"}}
+{"product_id": "p1099", "name": "Product 99", "category": "electronics", "brand": "Zenith", "price": 931.43, "in_stock": false, "created_at": "2025-06-15T00:00:00Z"}
