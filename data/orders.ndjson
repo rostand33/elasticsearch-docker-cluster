@@ -1,0 +1,600 @@
+{"index": {"_index": "orders", "_id": "o1000"}}
+{"order_id": "o1000", "user_id": "u1034", "product_id": "p1099", "quantity": 4, "total_price": 4950.56, "status": "shipped", "order_date": "2025-06-21T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1001"}}
+{"order_id": "o1001", "user_id": "u1045", "product_id": "p1012", "quantity": 3, "total_price": 3962.46, "status": "cancelled", "order_date": "2025-12-05T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1002"}}
+{"order_id": "o1002", "user_id": "u1027", "product_id": "p1037", "quantity": 2, "total_price": 577.26, "status": "cancelled", "order_date": "2025-10-12T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1003"}}
+{"order_id": "o1003", "user_id": "u1002", "product_id": "p1016", "quantity": 2, "total_price": 1057.76, "status": "created", "order_date": "2025-04-07T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1004"}}
+{"order_id": "o1004", "user_id": "u1027", "product_id": "p1019", "quantity": 4, "total_price": 4127.76, "status": "delivered", "order_date": "2025-10-04T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1005"}}
+{"order_id": "o1005", "user_id": "u1045", "product_id": "p1094", "quantity": 2, "total_price": 3669.36, "status": "delivered", "order_date": "2025-09-30T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1006"}}
+{"order_id": "o1006", "user_id": "u1020", "product_id": "p1097", "quantity": 4, "total_price": 7879.72, "status": "cancelled", "order_date": "2026-01-11T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1007"}}
+{"order_id": "o1007", "user_id": "u1037", "product_id": "p1041", "quantity": 1, "total_price": 1281.42, "status": "shipped", "order_date": "2025-04-21T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1008"}}
+{"order_id": "o1008", "user_id": "u1015", "product_id": "p1025", "quantity": 5, "total_price": 8560.2, "status": "shipped", "order_date": "2025-01-30T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1009"}}
+{"order_id": "o1009", "user_id": "u1039", "product_id": "p1038", "quantity": 5, "total_price": 5474.65, "status": "shipped", "order_date": "2026-01-02T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1010"}}
+{"order_id": "o1010", "user_id": "u1028", "product_id": "p1057", "quantity": 1, "total_price": 1471.13, "status": "cancelled", "order_date": "2025-01-20T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1011"}}
+{"order_id": "o1011", "user_id": "u1045", "product_id": "p1070", "quantity": 4, "total_price": 1767.44, "status": "delivered", "order_date": "2025-09-29T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1012"}}
+{"order_id": "o1012", "user_id": "u1025", "product_id": "p1012", "quantity": 3, "total_price": 3361.11, "status": "delivered", "order_date": "2025-12-28T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1013"}}
+{"order_id": "o1013", "user_id": "u1009", "product_id": "p1075", "quantity": 4, "total_price": 5887.44, "status": "delivered", "order_date": "2025-09-04T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1014"}}
+{"order_id": "o1014", "user_id": "u1027", "product_id": "p1077", "quantity": 1, "total_price": 1231.12, "status": "cancelled", "order_date": "2025-12-17T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1015"}}
+{"order_id": "o1015", "user_id": "u1041", "product_id": "p1029", "quantity": 3, "total_price": 2886.15, "status": "delivered", "order_date": "2025-08-16T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1016"}}
+{"order_id": "o1016", "user_id": "u1009", "product_id": "p1006", "quantity": 5, "total_price": 8497.15, "status": "cancelled", "order_date": "2025-05-12T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1017"}}
+{"order_id": "o1017", "user_id": "u1015", "product_id": "p1048", "quantity": 3, "total_price": 4598.16, "status": "shipped", "order_date": "2025-06-19T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1018"}}
+{"order_id": "o1018", "user_id": "u1031", "product_id": "p1085", "quantity": 5, "total_price": 6171.75, "status": "cancelled", "order_date": "2025-07-11T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1019"}}
+{"order_id": "o1019", "user_id": "u1049", "product_id": "p1056", "quantity": 4, "total_price": 3075.68, "status": "delivered", "order_date": "2025-09-23T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1020"}}
+{"order_id": "o1020", "user_id": "u1009", "product_id": "p1019", "quantity": 2, "total_price": 2229.12, "status": "created", "order_date": "2025-04-02T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1021"}}
+{"order_id": "o1021", "user_id": "u1037", "product_id": "p1012", "quantity": 4, "total_price": 4664.32, "status": "paid", "order_date": "2025-07-14T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1022"}}
+{"order_id": "o1022", "user_id": "u1039", "product_id": "p1043", "quantity": 2, "total_price": 221.3, "status": "cancelled", "order_date": "2025-08-31T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1023"}}
+{"order_id": "o1023", "user_id": "u1035", "product_id": "p1058", "quantity": 1, "total_price": 327.08, "status": "cancelled", "order_date": "2026-01-24T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1024"}}
+{"order_id": "o1024", "user_id": "u1038", "product_id": "p1066", "quantity": 3, "total_price": 5952.39, "status": "shipped", "order_date": "2025-03-08T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1025"}}
+{"order_id": "o1025", "user_id": "u1041", "product_id": "p1029", "quantity": 4, "total_price": 3011.92, "status": "created", "order_date": "2025-01-12T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1026"}}
+{"order_id": "o1026", "user_id": "u1000", "product_id": "p1088", "quantity": 1, "total_price": 1183.85, "status": "shipped", "order_date": "2025-10-18T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1027"}}
+{"order_id": "o1027", "user_id": "u1046", "product_id": "p1047", "quantity": 2, "total_price": 2992.16, "status": "created", "order_date": "2025-12-31T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1028"}}
+{"order_id": "o1028", "user_id": "u1045", "product_id": "p1046", "quantity": 1, "total_price": 1937.26, "status": "delivered", "order_date": "2026-01-24T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1029"}}
+{"order_id": "o1029", "user_id": "u1021", "product_id": "p1037", "quantity": 3, "total_price": 2335.53, "status": "cancelled", "order_date": "2025-11-06T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1030"}}
+{"order_id": "o1030", "user_id": "u1013", "product_id": "p1032", "quantity": 4, "total_price": 6232.8, "status": "paid", "order_date": "2025-07-31T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1031"}}
+{"order_id": "o1031", "user_id": "u1001", "product_id": "p1070", "quantity": 5, "total_price": 1984.4, "status": "delivered", "order_date": "2025-09-28T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1032"}}
+{"order_id": "o1032", "user_id": "u1015", "product_id": "p1038", "quantity": 3, "total_price": 2511.06, "status": "cancelled", "order_date": "2025-11-01T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1033"}}
+{"order_id": "o1033", "user_id": "u1021", "product_id": "p1018", "quantity": 5, "total_price": 7455.2, "status": "paid", "order_date": "2025-05-07T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1034"}}
+{"order_id": "o1034", "user_id": "u1026", "product_id": "p1079", "quantity": 4, "total_price": 5705.08, "status": "paid", "order_date": "2025-04-05T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1035"}}
+{"order_id": "o1035", "user_id": "u1014", "product_id": "p1031", "quantity": 4, "total_price": 7360.12, "status": "delivered", "order_date": "2025-09-14T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1036"}}
+{"order_id": "o1036", "user_id": "u1046", "product_id": "p1039", "quantity": 2, "total_price": 976.28, "status": "created", "order_date": "2025-04-30T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1037"}}
+{"order_id": "o1037", "user_id": "u1031", "product_id": "p1085", "quantity": 1, "total_price": 727.84, "status": "created", "order_date": "2025-06-24T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1038"}}
+{"order_id": "o1038", "user_id": "u1003", "product_id": "p1066", "quantity": 2, "total_price": 3860.08, "status": "created", "order_date": "2025-05-01T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1039"}}
+{"order_id": "o1039", "user_id": "u1043", "product_id": "p1012", "quantity": 1, "total_price": 1017.78, "status": "cancelled", "order_date": "2025-07-25T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1040"}}
+{"order_id": "o1040", "user_id": "u1010", "product_id": "p1002", "quantity": 2, "total_price": 1121.22, "status": "delivered", "order_date": "2025-04-28T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1041"}}
+{"order_id": "o1041", "user_id": "u1031", "product_id": "p1064", "quantity": 3, "total_price": 4928.07, "status": "shipped", "order_date": "2025-02-12T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1042"}}
+{"order_id": "o1042", "user_id": "u1000", "product_id": "p1034", "quantity": 4, "total_price": 4657.24, "status": "created", "order_date": "2026-02-05T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1043"}}
+{"order_id": "o1043", "user_id": "u1048", "product_id": "p1055", "quantity": 4, "total_price": 4856.76, "status": "paid", "order_date": "2025-10-17T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1044"}}
+{"order_id": "o1044", "user_id": "u1030", "product_id": "p1098", "quantity": 4, "total_price": 7630.6, "status": "delivered", "order_date": "2025-05-14T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1045"}}
+{"order_id": "o1045", "user_id": "u1023", "product_id": "p1095", "quantity": 3, "total_price": 5492.16, "status": "shipped", "order_date": "2025-05-02T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1046"}}
+{"order_id": "o1046", "user_id": "u1010", "product_id": "p1031", "quantity": 4, "total_price": 3955.52, "status": "delivered", "order_date": "2025-02-23T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1047"}}
+{"order_id": "o1047", "user_id": "u1036", "product_id": "p1046", "quantity": 2, "total_price": 1434.3, "status": "cancelled", "order_date": "2025-02-20T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1048"}}
+{"order_id": "o1048", "user_id": "u1021", "product_id": "p1044", "quantity": 5, "total_price": 8725.1, "status": "delivered", "order_date": "2025-09-14T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1049"}}
+{"order_id": "o1049", "user_id": "u1043", "product_id": "p1076", "quantity": 3, "total_price": 4608.42, "status": "shipped", "order_date": "2025-03-10T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1050"}}
+{"order_id": "o1050", "user_id": "u1033", "product_id": "p1076", "quantity": 3, "total_price": 1430.37, "status": "shipped", "order_date": "2026-01-11T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1051"}}
+{"order_id": "o1051", "user_id": "u1025", "product_id": "p1049", "quantity": 5, "total_price": 8187.8, "status": "paid", "order_date": "2025-10-09T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1052"}}
+{"order_id": "o1052", "user_id": "u1014", "product_id": "p1057", "quantity": 1, "total_price": 348.04, "status": "paid", "order_date": "2025-07-03T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1053"}}
+{"order_id": "o1053", "user_id": "u1026", "product_id": "p1087", "quantity": 3, "total_price": 2764.5, "status": "delivered", "order_date": "2025-06-07T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1054"}}
+{"order_id": "o1054", "user_id": "u1040", "product_id": "p1078", "quantity": 4, "total_price": 3717.24, "status": "delivered", "order_date": "2025-06-08T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1055"}}
+{"order_id": "o1055", "user_id": "u1005", "product_id": "p1035", "quantity": 1, "total_price": 237.05, "status": "delivered", "order_date": "2025-09-06T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1056"}}
+{"order_id": "o1056", "user_id": "u1039", "product_id": "p1097", "quantity": 2, "total_price": 1033.74, "status": "cancelled", "order_date": "2025-02-10T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1057"}}
+{"order_id": "o1057", "user_id": "u1006", "product_id": "p1046", "quantity": 5, "total_price": 2434.95, "status": "shipped", "order_date": "2025-07-13T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1058"}}
+{"order_id": "o1058", "user_id": "u1021", "product_id": "p1056", "quantity": 2, "total_price": 618.96, "status": "shipped", "order_date": "2025-05-05T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1059"}}
+{"order_id": "o1059", "user_id": "u1025", "product_id": "p1083", "quantity": 5, "total_price": 1813.85, "status": "shipped", "order_date": "2025-05-13T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1060"}}
+{"order_id": "o1060", "user_id": "u1011", "product_id": "p1085", "quantity": 3, "total_price": 2291.91, "status": "created", "order_date": "2025-06-19T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1061"}}
+{"order_id": "o1061", "user_id": "u1038", "product_id": "p1069", "quantity": 2, "total_price": 3506.68, "status": "shipped", "order_date": "2025-08-06T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1062"}}
+{"order_id": "o1062", "user_id": "u1027", "product_id": "p1050", "quantity": 4, "total_price": 2029.52, "status": "cancelled", "order_date": "2025-04-02T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1063"}}
+{"order_id": "o1063", "user_id": "u1007", "product_id": "p1027", "quantity": 4, "total_price": 6471.68, "status": "paid", "order_date": "2025-04-08T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1064"}}
+{"order_id": "o1064", "user_id": "u1049", "product_id": "p1076", "quantity": 1, "total_price": 1289.74, "status": "created", "order_date": "2025-03-14T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1065"}}
+{"order_id": "o1065", "user_id": "u1043", "product_id": "p1062", "quantity": 3, "total_price": 2115.87, "status": "delivered", "order_date": "2026-01-18T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1066"}}
+{"order_id": "o1066", "user_id": "u1030", "product_id": "p1052", "quantity": 1, "total_price": 1073.88, "status": "cancelled", "order_date": "2025-06-29T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1067"}}
+{"order_id": "o1067", "user_id": "u1002", "product_id": "p1093", "quantity": 1, "total_price": 1566.17, "status": "delivered", "order_date": "2025-08-17T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1068"}}
+{"order_id": "o1068", "user_id": "u1024", "product_id": "p1041", "quantity": 3, "total_price": 3954.78, "status": "shipped", "order_date": "2025-05-01T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1069"}}
+{"order_id": "o1069", "user_id": "u1028", "product_id": "p1013", "quantity": 2, "total_price": 3843.12, "status": "created", "order_date": "2025-11-24T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1070"}}
+{"order_id": "o1070", "user_id": "u1003", "product_id": "p1088", "quantity": 3, "total_price": 2988.75, "status": "created", "order_date": "2025-10-06T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1071"}}
+{"order_id": "o1071", "user_id": "u1031", "product_id": "p1020", "quantity": 5, "total_price": 3074.3, "status": "cancelled", "order_date": "2025-06-24T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1072"}}
+{"order_id": "o1072", "user_id": "u1011", "product_id": "p1007", "quantity": 5, "total_price": 359.8, "status": "cancelled", "order_date": "2025-03-02T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1073"}}
+{"order_id": "o1073", "user_id": "u1017", "product_id": "p1065", "quantity": 4, "total_price": 1810.28, "status": "created", "order_date": "2025-02-13T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1074"}}
+{"order_id": "o1074", "user_id": "u1049", "product_id": "p1026", "quantity": 5, "total_price": 7028.45, "status": "delivered", "order_date": "2025-10-04T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1075"}}
+{"order_id": "o1075", "user_id": "u1008", "product_id": "p1000", "quantity": 4, "total_price": 973.32, "status": "shipped", "order_date": "2025-07-04T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1076"}}
+{"order_id": "o1076", "user_id": "u1033", "product_id": "p1081", "quantity": 5, "total_price": 8107.5, "status": "cancelled", "order_date": "2025-09-27T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1077"}}
+{"order_id": "o1077", "user_id": "u1028", "product_id": "p1060", "quantity": 3, "total_price": 3021.27, "status": "shipped", "order_date": "2025-01-15T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1078"}}
+{"order_id": "o1078", "user_id": "u1043", "product_id": "p1071", "quantity": 2, "total_price": 531.86, "status": "paid", "order_date": "2025-09-12T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1079"}}
+{"order_id": "o1079", "user_id": "u1046", "product_id": "p1073", "quantity": 4, "total_price": 5540.64, "status": "created", "order_date": "2025-03-07T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1080"}}
+{"order_id": "o1080", "user_id": "u1005", "product_id": "p1058", "quantity": 2, "total_price": 2327.84, "status": "created", "order_date": "2025-04-27T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1081"}}
+{"order_id": "o1081", "user_id": "u1002", "product_id": "p1008", "quantity": 5, "total_price": 6291.25, "status": "created", "order_date": "2025-07-17T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1082"}}
+{"order_id": "o1082", "user_id": "u1030", "product_id": "p1054", "quantity": 1, "total_price": 1980.64, "status": "shipped", "order_date": "2025-03-24T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1083"}}
+{"order_id": "o1083", "user_id": "u1040", "product_id": "p1040", "quantity": 4, "total_price": 2119.52, "status": "created", "order_date": "2025-04-27T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1084"}}
+{"order_id": "o1084", "user_id": "u1008", "product_id": "p1074", "quantity": 2, "total_price": 1134.78, "status": "cancelled", "order_date": "2025-05-30T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1085"}}
+{"order_id": "o1085", "user_id": "u1025", "product_id": "p1085", "quantity": 5, "total_price": 849.6, "status": "shipped", "order_date": "2025-10-26T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1086"}}
+{"order_id": "o1086", "user_id": "u1018", "product_id": "p1023", "quantity": 3, "total_price": 2154.6, "status": "paid", "order_date": "2025-05-01T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1087"}}
+{"order_id": "o1087", "user_id": "u1034", "product_id": "p1080", "quantity": 3, "total_price": 3529.83, "status": "cancelled", "order_date": "2025-11-06T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1088"}}
+{"order_id": "o1088", "user_id": "u1017", "product_id": "p1084", "quantity": 1, "total_price": 1043.59, "status": "delivered", "order_date": "2025-10-11T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1089"}}
+{"order_id": "o1089", "user_id": "u1004", "product_id": "p1007", "quantity": 1, "total_price": 1932.76, "status": "cancelled", "order_date": "2025-10-01T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1090"}}
+{"order_id": "o1090", "user_id": "u1014", "product_id": "p1030", "quantity": 4, "total_price": 3476.48, "status": "shipped", "order_date": "2025-07-07T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1091"}}
+{"order_id": "o1091", "user_id": "u1012", "product_id": "p1003", "quantity": 4, "total_price": 921.28, "status": "shipped", "order_date": "2025-05-07T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1092"}}
+{"order_id": "o1092", "user_id": "u1041", "product_id": "p1032", "quantity": 2, "total_price": 454.26, "status": "delivered", "order_date": "2025-07-27T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1093"}}
+{"order_id": "o1093", "user_id": "u1004", "product_id": "p1098", "quantity": 4, "total_price": 1198.4, "status": "delivered", "order_date": "2025-05-07T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1094"}}
+{"order_id": "o1094", "user_id": "u1007", "product_id": "p1016", "quantity": 3, "total_price": 4591.44, "status": "shipped", "order_date": "2025-12-17T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1095"}}
+{"order_id": "o1095", "user_id": "u1012", "product_id": "p1006", "quantity": 4, "total_price": 3839.68, "status": "cancelled", "order_date": "2025-04-05T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1096"}}
+{"order_id": "o1096", "user_id": "u1009", "product_id": "p1047", "quantity": 5, "total_price": 8461.75, "status": "created", "order_date": "2025-07-31T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1097"}}
+{"order_id": "o1097", "user_id": "u1042", "product_id": "p1014", "quantity": 2, "total_price": 3664.34, "status": "paid", "order_date": "2025-05-12T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1098"}}
+{"order_id": "o1098", "user_id": "u1024", "product_id": "p1094", "quantity": 4, "total_price": 6901.2, "status": "cancelled", "order_date": "2025-06-12T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1099"}}
+{"order_id": "o1099", "user_id": "u1028", "product_id": "p1059", "quantity": 5, "total_price": 6131.55, "status": "delivered", "order_date": "2026-01-10T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1100"}}
+{"order_id": "o1100", "user_id": "u1002", "product_id": "p1059", "quantity": 5, "total_price": 4242.0, "status": "shipped", "order_date": "2025-09-01T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1101"}}
+{"order_id": "o1101", "user_id": "u1028", "product_id": "p1096", "quantity": 4, "total_price": 7292.36, "status": "paid", "order_date": "2025-01-26T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1102"}}
+{"order_id": "o1102", "user_id": "u1047", "product_id": "p1071", "quantity": 2, "total_price": 3709.7, "status": "paid", "order_date": "2025-07-01T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1103"}}
+{"order_id": "o1103", "user_id": "u1031", "product_id": "p1001", "quantity": 1, "total_price": 1570.68, "status": "paid", "order_date": "2025-07-09T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1104"}}
+{"order_id": "o1104", "user_id": "u1035", "product_id": "p1090", "quantity": 1, "total_price": 554.1, "status": "delivered", "order_date": "2025-07-30T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1105"}}
+{"order_id": "o1105", "user_id": "u1015", "product_id": "p1082", "quantity": 3, "total_price": 2898.24, "status": "created", "order_date": "2026-02-03T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1106"}}
+{"order_id": "o1106", "user_id": "u1019", "product_id": "p1010", "quantity": 1, "total_price": 873.07, "status": "cancelled", "order_date": "2025-09-05T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1107"}}
+{"order_id": "o1107", "user_id": "u1017", "product_id": "p1009", "quantity": 5, "total_price": 3209.5, "status": "delivered", "order_date": "2025-09-03T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1108"}}
+{"order_id": "o1108", "user_id": "u1000", "product_id": "p1089", "quantity": 1, "total_price": 91.01, "status": "delivered", "order_date": "2026-01-29T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1109"}}
+{"order_id": "o1109", "user_id": "u1038", "product_id": "p1005", "quantity": 1, "total_price": 1622.71, "status": "created", "order_date": "2025-01-22T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1110"}}
+{"order_id": "o1110", "user_id": "u1005", "product_id": "p1071", "quantity": 2, "total_price": 2202.58, "status": "created", "order_date": "2025-02-04T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1111"}}
+{"order_id": "o1111", "user_id": "u1022", "product_id": "p1002", "quantity": 5, "total_price": 7140.15, "status": "paid", "order_date": "2025-12-24T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1112"}}
+{"order_id": "o1112", "user_id": "u1009", "product_id": "p1010", "quantity": 2, "total_price": 3761.08, "status": "created", "order_date": "2025-08-23T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1113"}}
+{"order_id": "o1113", "user_id": "u1046", "product_id": "p1091", "quantity": 5, "total_price": 9700.8, "status": "created", "order_date": "2025-10-14T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1114"}}
+{"order_id": "o1114", "user_id": "u1030", "product_id": "p1009", "quantity": 4, "total_price": 767.16, "status": "created", "order_date": "2025-01-23T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1115"}}
+{"order_id": "o1115", "user_id": "u1009", "product_id": "p1013", "quantity": 3, "total_price": 5419.02, "status": "cancelled", "order_date": "2025-05-17T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1116"}}
+{"order_id": "o1116", "user_id": "u1029", "product_id": "p1001", "quantity": 1, "total_price": 1947.14, "status": "cancelled", "order_date": "2025-01-04T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1117"}}
+{"order_id": "o1117", "user_id": "u1005", "product_id": "p1086", "quantity": 3, "total_price": 3873.36, "status": "delivered", "order_date": "2025-02-05T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1118"}}
+{"order_id": "o1118", "user_id": "u1016", "product_id": "p1011", "quantity": 1, "total_price": 1028.72, "status": "paid", "order_date": "2025-05-16T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1119"}}
+{"order_id": "o1119", "user_id": "u1029", "product_id": "p1049", "quantity": 3, "total_price": 2840.4, "status": "delivered", "order_date": "2025-06-19T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1120"}}
+{"order_id": "o1120", "user_id": "u1048", "product_id": "p1015", "quantity": 1, "total_price": 661.81, "status": "shipped", "order_date": "2025-06-11T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1121"}}
+{"order_id": "o1121", "user_id": "u1043", "product_id": "p1047", "quantity": 1, "total_price": 1446.97, "status": "paid", "order_date": "2025-11-26T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1122"}}
+{"order_id": "o1122", "user_id": "u1046", "product_id": "p1087", "quantity": 3, "total_price": 4024.86, "status": "paid", "order_date": "2025-12-18T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1123"}}
+{"order_id": "o1123", "user_id": "u1006", "product_id": "p1052", "quantity": 5, "total_price": 9418.55, "status": "shipped", "order_date": "2025-12-06T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1124"}}
+{"order_id": "o1124", "user_id": "u1010", "product_id": "p1072", "quantity": 4, "total_price": 4984.88, "status": "delivered", "order_date": "2025-04-29T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1125"}}
+{"order_id": "o1125", "user_id": "u1044", "product_id": "p1052", "quantity": 2, "total_price": 1797.86, "status": "shipped", "order_date": "2025-02-06T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1126"}}
+{"order_id": "o1126", "user_id": "u1040", "product_id": "p1031", "quantity": 2, "total_price": 2477.24, "status": "cancelled", "order_date": "2026-01-20T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1127"}}
+{"order_id": "o1127", "user_id": "u1031", "product_id": "p1033", "quantity": 2, "total_price": 3152.84, "status": "delivered", "order_date": "2025-05-25T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1128"}}
+{"order_id": "o1128", "user_id": "u1036", "product_id": "p1018", "quantity": 5, "total_price": 8611.0, "status": "created", "order_date": "2025-04-11T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1129"}}
+{"order_id": "o1129", "user_id": "u1010", "product_id": "p1022", "quantity": 1, "total_price": 1912.49, "status": "created", "order_date": "2025-05-11T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1130"}}
+{"order_id": "o1130", "user_id": "u1044", "product_id": "p1091", "quantity": 1, "total_price": 1625.18, "status": "paid", "order_date": "2025-05-26T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1131"}}
+{"order_id": "o1131", "user_id": "u1019", "product_id": "p1079", "quantity": 3, "total_price": 3489.6, "status": "delivered", "order_date": "2025-08-08T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1132"}}
+{"order_id": "o1132", "user_id": "u1029", "product_id": "p1004", "quantity": 1, "total_price": 179.31, "status": "created", "order_date": "2026-01-18T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1133"}}
+{"order_id": "o1133", "user_id": "u1017", "product_id": "p1030", "quantity": 3, "total_price": 1253.1, "status": "shipped", "order_date": "2026-01-19T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1134"}}
+{"order_id": "o1134", "user_id": "u1023", "product_id": "p1020", "quantity": 1, "total_price": 966.13, "status": "paid", "order_date": "2025-08-15T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1135"}}
+{"order_id": "o1135", "user_id": "u1029", "product_id": "p1096", "quantity": 4, "total_price": 3642.68, "status": "paid", "order_date": "2025-07-23T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1136"}}
+{"order_id": "o1136", "user_id": "u1003", "product_id": "p1089", "quantity": 5, "total_price": 5048.7, "status": "paid", "order_date": "2026-01-05T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1137"}}
+{"order_id": "o1137", "user_id": "u1039", "product_id": "p1047", "quantity": 3, "total_price": 4669.71, "status": "cancelled", "order_date": "2025-03-01T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1138"}}
+{"order_id": "o1138", "user_id": "u1040", "product_id": "p1058", "quantity": 4, "total_price": 4969.56, "status": "created", "order_date": "2025-11-02T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1139"}}
+{"order_id": "o1139", "user_id": "u1000", "product_id": "p1070", "quantity": 4, "total_price": 1715.04, "status": "cancelled", "order_date": "2025-06-16T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1140"}}
+{"order_id": "o1140", "user_id": "u1042", "product_id": "p1082", "quantity": 5, "total_price": 4054.75, "status": "shipped", "order_date": "2025-06-23T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1141"}}
+{"order_id": "o1141", "user_id": "u1020", "product_id": "p1000", "quantity": 2, "total_price": 3183.14, "status": "paid", "order_date": "2025-08-08T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1142"}}
+{"order_id": "o1142", "user_id": "u1018", "product_id": "p1001", "quantity": 2, "total_price": 2387.88, "status": "delivered", "order_date": "2025-09-01T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1143"}}
+{"order_id": "o1143", "user_id": "u1028", "product_id": "p1013", "quantity": 1, "total_price": 54.62, "status": "cancelled", "order_date": "2025-02-09T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1144"}}
+{"order_id": "o1144", "user_id": "u1000", "product_id": "p1012", "quantity": 1, "total_price": 138.75, "status": "created", "order_date": "2025-08-29T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1145"}}
+{"order_id": "o1145", "user_id": "u1037", "product_id": "p1027", "quantity": 5, "total_price": 3599.75, "status": "shipped", "order_date": "2025-05-25T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1146"}}
+{"order_id": "o1146", "user_id": "u1042", "product_id": "p1073", "quantity": 2, "total_price": 456.7, "status": "paid", "order_date": "2026-02-01T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1147"}}
+{"order_id": "o1147", "user_id": "u1019", "product_id": "p1033", "quantity": 1, "total_price": 1915.73, "status": "cancelled", "order_date": "2025-09-07T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1148"}}
+{"order_id": "o1148", "user_id": "u1002", "product_id": "p1098", "quantity": 4, "total_price": 1194.16, "status": "shipped", "order_date": "2025-11-05T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1149"}}
+{"order_id": "o1149", "user_id": "u1009", "product_id": "p1022", "quantity": 2, "total_price": 299.3, "status": "cancelled", "order_date": "2026-01-04T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1150"}}
+{"order_id": "o1150", "user_id": "u1045", "product_id": "p1038", "quantity": 1, "total_price": 1067.6, "status": "paid", "order_date": "2025-10-03T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1151"}}
+{"order_id": "o1151", "user_id": "u1006", "product_id": "p1048", "quantity": 2, "total_price": 2586.58, "status": "shipped", "order_date": "2025-12-30T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1152"}}
+{"order_id": "o1152", "user_id": "u1000", "product_id": "p1057", "quantity": 5, "total_price": 7989.25, "status": "delivered", "order_date": "2025-08-11T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1153"}}
+{"order_id": "o1153", "user_id": "u1016", "product_id": "p1046", "quantity": 4, "total_price": 2728.8, "status": "paid", "order_date": "2025-05-27T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1154"}}
+{"order_id": "o1154", "user_id": "u1041", "product_id": "p1010", "quantity": 4, "total_price": 1692.48, "status": "delivered", "order_date": "2025-09-28T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1155"}}
+{"order_id": "o1155", "user_id": "u1002", "product_id": "p1006", "quantity": 4, "total_price": 5932.2, "status": "shipped", "order_date": "2025-10-31T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1156"}}
+{"order_id": "o1156", "user_id": "u1017", "product_id": "p1048", "quantity": 4, "total_price": 6979.32, "status": "cancelled", "order_date": "2025-11-28T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1157"}}
+{"order_id": "o1157", "user_id": "u1003", "product_id": "p1035", "quantity": 3, "total_price": 1510.38, "status": "shipped", "order_date": "2025-11-12T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1158"}}
+{"order_id": "o1158", "user_id": "u1026", "product_id": "p1056", "quantity": 2, "total_price": 1909.38, "status": "cancelled", "order_date": "2026-01-07T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1159"}}
+{"order_id": "o1159", "user_id": "u1007", "product_id": "p1034", "quantity": 5, "total_price": 9038.8, "status": "cancelled", "order_date": "2026-01-03T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1160"}}
+{"order_id": "o1160", "user_id": "u1019", "product_id": "p1060", "quantity": 4, "total_price": 4422.52, "status": "paid", "order_date": "2025-05-23T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1161"}}
+{"order_id": "o1161", "user_id": "u1048", "product_id": "p1037", "quantity": 2, "total_price": 130.06, "status": "paid", "order_date": "2025-06-10T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1162"}}
+{"order_id": "o1162", "user_id": "u1010", "product_id": "p1026", "quantity": 2, "total_price": 1349.5, "status": "delivered", "order_date": "2025-11-09T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1163"}}
+{"order_id": "o1163", "user_id": "u1044", "product_id": "p1051", "quantity": 3, "total_price": 3495.36, "status": "shipped", "order_date": "2025-10-03T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1164"}}
+{"order_id": "o1164", "user_id": "u1017", "product_id": "p1001", "quantity": 2, "total_price": 2500.3, "status": "cancelled", "order_date": "2025-05-03T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1165"}}
+{"order_id": "o1165", "user_id": "u1032", "product_id": "p1078", "quantity": 5, "total_price": 5011.95, "status": "shipped", "order_date": "2025-11-22T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1166"}}
+{"order_id": "o1166", "user_id": "u1013", "product_id": "p1066", "quantity": 3, "total_price": 775.17, "status": "delivered", "order_date": "2025-01-09T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1167"}}
+{"order_id": "o1167", "user_id": "u1002", "product_id": "p1077", "quantity": 3, "total_price": 1734.69, "status": "shipped", "order_date": "2025-07-14T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1168"}}
+{"order_id": "o1168", "user_id": "u1014", "product_id": "p1017", "quantity": 2, "total_price": 1734.08, "status": "delivered", "order_date": "2025-09-06T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1169"}}
+{"order_id": "o1169", "user_id": "u1036", "product_id": "p1081", "quantity": 5, "total_price": 8415.25, "status": "paid", "order_date": "2025-07-31T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1170"}}
+{"order_id": "o1170", "user_id": "u1020", "product_id": "p1026", "quantity": 5, "total_price": 5181.35, "status": "delivered", "order_date": "2025-02-14T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1171"}}
+{"order_id": "o1171", "user_id": "u1022", "product_id": "p1069", "quantity": 1, "total_price": 1918.85, "status": "cancelled", "order_date": "2025-10-14T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1172"}}
+{"order_id": "o1172", "user_id": "u1026", "product_id": "p1077", "quantity": 5, "total_price": 2065.15, "status": "delivered", "order_date": "2025-02-28T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1173"}}
+{"order_id": "o1173", "user_id": "u1028", "product_id": "p1010", "quantity": 2, "total_price": 1312.38, "status": "created", "order_date": "2025-05-31T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1174"}}
+{"order_id": "o1174", "user_id": "u1014", "product_id": "p1023", "quantity": 1, "total_price": 1510.16, "status": "shipped", "order_date": "2025-07-20T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1175"}}
+{"order_id": "o1175", "user_id": "u1008", "product_id": "p1046", "quantity": 3, "total_price": 994.35, "status": "cancelled", "order_date": "2025-10-20T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1176"}}
+{"order_id": "o1176", "user_id": "u1032", "product_id": "p1014", "quantity": 3, "total_price": 5140.11, "status": "cancelled", "order_date": "2025-11-07T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1177"}}
+{"order_id": "o1177", "user_id": "u1046", "product_id": "p1058", "quantity": 1, "total_price": 1554.76, "status": "delivered", "order_date": "2025-07-08T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1178"}}
+{"order_id": "o1178", "user_id": "u1019", "product_id": "p1095", "quantity": 4, "total_price": 409.6, "status": "cancelled", "order_date": "2025-01-26T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1179"}}
+{"order_id": "o1179", "user_id": "u1024", "product_id": "p1020", "quantity": 5, "total_price": 1070.05, "status": "created", "order_date": "2025-02-24T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1180"}}
+{"order_id": "o1180", "user_id": "u1039", "product_id": "p1072", "quantity": 1, "total_price": 1430.92, "status": "paid", "order_date": "2025-12-22T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1181"}}
+{"order_id": "o1181", "user_id": "u1041", "product_id": "p1041", "quantity": 2, "total_price": 3528.88, "status": "delivered", "order_date": "2025-10-19T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1182"}}
+{"order_id": "o1182", "user_id": "u1032", "product_id": "p1048", "quantity": 5, "total_price": 4991.95, "status": "created", "order_date": "2025-03-23T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1183"}}
+{"order_id": "o1183", "user_id": "u1014", "product_id": "p1078", "quantity": 2, "total_price": 545.7, "status": "created", "order_date": "2025-05-01T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1184"}}
+{"order_id": "o1184", "user_id": "u1045", "product_id": "p1059", "quantity": 4, "total_price": 6787.96, "status": "created", "order_date": "2025-12-23T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1185"}}
+{"order_id": "o1185", "user_id": "u1015", "product_id": "p1042", "quantity": 5, "total_price": 3437.35, "status": "delivered", "order_date": "2026-01-04T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1186"}}
+{"order_id": "o1186", "user_id": "u1034", "product_id": "p1067", "quantity": 1, "total_price": 63.75, "status": "paid", "order_date": "2026-01-01T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1187"}}
+{"order_id": "o1187", "user_id": "u1041", "product_id": "p1074", "quantity": 1, "total_price": 1451.66, "status": "shipped", "order_date": "2025-08-09T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1188"}}
+{"order_id": "o1188", "user_id": "u1041", "product_id": "p1069", "quantity": 4, "total_price": 4656.24, "status": "delivered", "order_date": "2025-10-07T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1189"}}
+{"order_id": "o1189", "user_id": "u1042", "product_id": "p1076", "quantity": 4, "total_price": 755.44, "status": "paid", "order_date": "2025-05-06T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1190"}}
+{"order_id": "o1190", "user_id": "u1040", "product_id": "p1031", "quantity": 2, "total_price": 1539.42, "status": "cancelled", "order_date": "2026-01-04T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1191"}}
+{"order_id": "o1191", "user_id": "u1014", "product_id": "p1089", "quantity": 4, "total_price": 6895.04, "status": "created", "order_date": "2025-02-18T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1192"}}
+{"order_id": "o1192", "user_id": "u1044", "product_id": "p1098", "quantity": 1, "total_price": 1266.12, "status": "paid", "order_date": "2025-07-02T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1193"}}
+{"order_id": "o1193", "user_id": "u1000", "product_id": "p1095", "quantity": 1, "total_price": 1282.53, "status": "shipped", "order_date": "2026-02-05T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1194"}}
+{"order_id": "o1194", "user_id": "u1046", "product_id": "p1073", "quantity": 2, "total_price": 1022.18, "status": "paid", "order_date": "2025-12-18T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1195"}}
+{"order_id": "o1195", "user_id": "u1039", "product_id": "p1067", "quantity": 1, "total_price": 311.62, "status": "delivered", "order_date": "2025-07-03T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1196"}}
+{"order_id": "o1196", "user_id": "u1046", "product_id": "p1077", "quantity": 2, "total_price": 1218.12, "status": "created", "order_date": "2025-08-20T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1197"}}
+{"order_id": "o1197", "user_id": "u1044", "product_id": "p1065", "quantity": 3, "total_price": 4500.72, "status": "created", "order_date": "2025-03-04T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1198"}}
+{"order_id": "o1198", "user_id": "u1025", "product_id": "p1062", "quantity": 5, "total_price": 2812.0, "status": "delivered", "order_date": "2025-02-12T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1199"}}
+{"order_id": "o1199", "user_id": "u1042", "product_id": "p1017", "quantity": 2, "total_price": 2121.92, "status": "paid", "order_date": "2025-09-27T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1200"}}
+{"order_id": "o1200", "user_id": "u1045", "product_id": "p1065", "quantity": 2, "total_price": 1830.42, "status": "shipped", "order_date": "2025-06-22T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1201"}}
+{"order_id": "o1201", "user_id": "u1015", "product_id": "p1056", "quantity": 1, "total_price": 102.32, "status": "delivered", "order_date": "2026-01-28T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1202"}}
+{"order_id": "o1202", "user_id": "u1015", "product_id": "p1088", "quantity": 1, "total_price": 752.51, "status": "paid", "order_date": "2025-04-20T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1203"}}
+{"order_id": "o1203", "user_id": "u1019", "product_id": "p1074", "quantity": 4, "total_price": 726.64, "status": "created", "order_date": "2025-12-11T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1204"}}
+{"order_id": "o1204", "user_id": "u1005", "product_id": "p1055", "quantity": 3, "total_price": 913.65, "status": "paid", "order_date": "2025-05-18T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1205"}}
+{"order_id": "o1205", "user_id": "u1035", "product_id": "p1019", "quantity": 4, "total_price": 2704.6, "status": "created", "order_date": "2025-03-24T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1206"}}
+{"order_id": "o1206", "user_id": "u1027", "product_id": "p1059", "quantity": 2, "total_price": 29.1, "status": "shipped", "order_date": "2025-02-18T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1207"}}
+{"order_id": "o1207", "user_id": "u1046", "product_id": "p1052", "quantity": 3, "total_price": 171.87, "status": "delivered", "order_date": "2025-04-04T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1208"}}
+{"order_id": "o1208", "user_id": "u1047", "product_id": "p1061", "quantity": 2, "total_price": 3929.98, "status": "paid", "order_date": "2026-01-16T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1209"}}
+{"order_id": "o1209", "user_id": "u1038", "product_id": "p1000", "quantity": 3, "total_price": 3483.6, "status": "shipped", "order_date": "2025-08-13T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1210"}}
+{"order_id": "o1210", "user_id": "u1016", "product_id": "p1022", "quantity": 1, "total_price": 1242.59, "status": "shipped", "order_date": "2025-04-26T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1211"}}
+{"order_id": "o1211", "user_id": "u1043", "product_id": "p1029", "quantity": 3, "total_price": 2371.77, "status": "created", "order_date": "2025-06-07T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1212"}}
+{"order_id": "o1212", "user_id": "u1009", "product_id": "p1022", "quantity": 5, "total_price": 8984.55, "status": "created", "order_date": "2025-07-07T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1213"}}
+{"order_id": "o1213", "user_id": "u1001", "product_id": "p1080", "quantity": 3, "total_price": 4056.45, "status": "paid", "order_date": "2025-03-28T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1214"}}
+{"order_id": "o1214", "user_id": "u1045", "product_id": "p1086", "quantity": 4, "total_price": 2131.88, "status": "paid", "order_date": "2025-05-15T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1215"}}
+{"order_id": "o1215", "user_id": "u1039", "product_id": "p1085", "quantity": 3, "total_price": 5760.33, "status": "cancelled", "order_date": "2025-02-17T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1216"}}
+{"order_id": "o1216", "user_id": "u1007", "product_id": "p1058", "quantity": 4, "total_price": 2858.88, "status": "shipped", "order_date": "2025-11-24T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1217"}}
+{"order_id": "o1217", "user_id": "u1038", "product_id": "p1047", "quantity": 4, "total_price": 5831.36, "status": "shipped", "order_date": "2025-05-14T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1218"}}
+{"order_id": "o1218", "user_id": "u1032", "product_id": "p1020", "quantity": 1, "total_price": 462.22, "status": "cancelled", "order_date": "2025-05-09T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1219"}}
+{"order_id": "o1219", "user_id": "u1001", "product_id": "p1060", "quantity": 4, "total_price": 958.44, "status": "created", "order_date": "2025-04-04T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1220"}}
+{"order_id": "o1220", "user_id": "u1046", "product_id": "p1015", "quantity": 5, "total_price": 7134.8, "status": "delivered", "order_date": "2025-10-05T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1221"}}
+{"order_id": "o1221", "user_id": "u1046", "product_id": "p1066", "quantity": 3, "total_price": 1828.98, "status": "shipped", "order_date": "2025-08-23T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1222"}}
+{"order_id": "o1222", "user_id": "u1040", "product_id": "p1099", "quantity": 5, "total_price": 9030.1, "status": "delivered", "order_date": "2025-10-19T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1223"}}
+{"order_id": "o1223", "user_id": "u1031", "product_id": "p1093", "quantity": 5, "total_price": 1031.6, "status": "created", "order_date": "2025-09-24T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1224"}}
+{"order_id": "o1224", "user_id": "u1005", "product_id": "p1093", "quantity": 1, "total_price": 1657.58, "status": "created", "order_date": "2025-05-17T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1225"}}
+{"order_id": "o1225", "user_id": "u1028", "product_id": "p1016", "quantity": 2, "total_price": 654.12, "status": "created", "order_date": "2025-10-11T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1226"}}
+{"order_id": "o1226", "user_id": "u1036", "product_id": "p1088", "quantity": 1, "total_price": 695.8, "status": "delivered", "order_date": "2025-11-28T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1227"}}
+{"order_id": "o1227", "user_id": "u1030", "product_id": "p1069", "quantity": 1, "total_price": 1236.73, "status": "paid", "order_date": "2025-10-17T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1228"}}
+{"order_id": "o1228", "user_id": "u1042", "product_id": "p1088", "quantity": 4, "total_price": 6181.44, "status": "created", "order_date": "2025-07-26T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1229"}}
+{"order_id": "o1229", "user_id": "u1037", "product_id": "p1066", "quantity": 1, "total_price": 824.67, "status": "shipped", "order_date": "2025-08-28T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1230"}}
+{"order_id": "o1230", "user_id": "u1008", "product_id": "p1058", "quantity": 1, "total_price": 488.58, "status": "cancelled", "order_date": "2025-05-27T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1231"}}
+{"order_id": "o1231", "user_id": "u1024", "product_id": "p1082", "quantity": 1, "total_price": 1576.89, "status": "paid", "order_date": "2025-11-18T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1232"}}
+{"order_id": "o1232", "user_id": "u1009", "product_id": "p1076", "quantity": 2, "total_price": 3030.62, "status": "created", "order_date": "2025-03-28T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1233"}}
+{"order_id": "o1233", "user_id": "u1041", "product_id": "p1021", "quantity": 1, "total_price": 1787.82, "status": "paid", "order_date": "2025-02-20T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1234"}}
+{"order_id": "o1234", "user_id": "u1031", "product_id": "p1010", "quantity": 5, "total_price": 6675.4, "status": "cancelled", "order_date": "2025-08-27T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1235"}}
+{"order_id": "o1235", "user_id": "u1048", "product_id": "p1022", "quantity": 2, "total_price": 2220.36, "status": "created", "order_date": "2025-10-21T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1236"}}
+{"order_id": "o1236", "user_id": "u1027", "product_id": "p1097", "quantity": 3, "total_price": 4236.24, "status": "paid", "order_date": "2025-03-04T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1237"}}
+{"order_id": "o1237", "user_id": "u1042", "product_id": "p1015", "quantity": 3, "total_price": 4912.59, "status": "cancelled", "order_date": "2025-09-26T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1238"}}
+{"order_id": "o1238", "user_id": "u1028", "product_id": "p1082", "quantity": 4, "total_price": 6321.88, "status": "paid", "order_date": "2025-10-27T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1239"}}
+{"order_id": "o1239", "user_id": "u1049", "product_id": "p1024", "quantity": 2, "total_price": 3214.38, "status": "cancelled", "order_date": "2025-08-25T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1240"}}
+{"order_id": "o1240", "user_id": "u1045", "product_id": "p1059", "quantity": 5, "total_price": 5631.1, "status": "delivered", "order_date": "2025-02-27T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1241"}}
+{"order_id": "o1241", "user_id": "u1028", "product_id": "p1045", "quantity": 2, "total_price": 735.9, "status": "paid", "order_date": "2025-02-06T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1242"}}
+{"order_id": "o1242", "user_id": "u1000", "product_id": "p1008", "quantity": 1, "total_price": 1928.38, "status": "shipped", "order_date": "2025-05-02T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1243"}}
+{"order_id": "o1243", "user_id": "u1008", "product_id": "p1000", "quantity": 4, "total_price": 1558.28, "status": "shipped", "order_date": "2025-03-23T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1244"}}
+{"order_id": "o1244", "user_id": "u1007", "product_id": "p1078", "quantity": 5, "total_price": 6517.6, "status": "delivered", "order_date": "2025-03-06T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1245"}}
+{"order_id": "o1245", "user_id": "u1008", "product_id": "p1054", "quantity": 2, "total_price": 3072.12, "status": "created", "order_date": "2025-11-12T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1246"}}
+{"order_id": "o1246", "user_id": "u1039", "product_id": "p1042", "quantity": 5, "total_price": 6099.9, "status": "created", "order_date": "2025-03-17T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1247"}}
+{"order_id": "o1247", "user_id": "u1043", "product_id": "p1062", "quantity": 2, "total_price": 3226.2, "status": "shipped", "order_date": "2025-03-10T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1248"}}
+{"order_id": "o1248", "user_id": "u1026", "product_id": "p1016", "quantity": 3, "total_price": 2586.33, "status": "delivered", "order_date": "2025-11-14T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1249"}}
+{"order_id": "o1249", "user_id": "u1023", "product_id": "p1066", "quantity": 5, "total_price": 4628.45, "status": "created", "order_date": "2025-08-26T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1250"}}
+{"order_id": "o1250", "user_id": "u1017", "product_id": "p1015", "quantity": 3, "total_price": 321.36, "status": "shipped", "order_date": "2025-10-26T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1251"}}
+{"order_id": "o1251", "user_id": "u1040", "product_id": "p1068", "quantity": 4, "total_price": 3308.44, "status": "created", "order_date": "2025-07-20T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1252"}}
+{"order_id": "o1252", "user_id": "u1000", "product_id": "p1020", "quantity": 3, "total_price": 1237.47, "status": "paid", "order_date": "2025-11-13T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1253"}}
+{"order_id": "o1253", "user_id": "u1013", "product_id": "p1045", "quantity": 1, "total_price": 134.58, "status": "cancelled", "order_date": "2025-04-19T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1254"}}
+{"order_id": "o1254", "user_id": "u1043", "product_id": "p1015", "quantity": 5, "total_price": 7467.9, "status": "cancelled", "order_date": "2025-04-23T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1255"}}
+{"order_id": "o1255", "user_id": "u1036", "product_id": "p1017", "quantity": 3, "total_price": 3991.65, "status": "created", "order_date": "2025-07-28T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1256"}}
+{"order_id": "o1256", "user_id": "u1009", "product_id": "p1041", "quantity": 5, "total_price": 4458.1, "status": "shipped", "order_date": "2025-09-10T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1257"}}
+{"order_id": "o1257", "user_id": "u1015", "product_id": "p1062", "quantity": 2, "total_price": 1023.12, "status": "delivered", "order_date": "2025-01-19T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1258"}}
+{"order_id": "o1258", "user_id": "u1040", "product_id": "p1031", "quantity": 3, "total_price": 4638.06, "status": "cancelled", "order_date": "2026-01-21T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1259"}}
+{"order_id": "o1259", "user_id": "u1044", "product_id": "p1051", "quantity": 2, "total_price": 3023.88, "status": "delivered", "order_date": "2025-05-11T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1260"}}
+{"order_id": "o1260", "user_id": "u1008", "product_id": "p1038", "quantity": 1, "total_price": 322.33, "status": "delivered", "order_date": "2025-03-22T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1261"}}
+{"order_id": "o1261", "user_id": "u1038", "product_id": "p1005", "quantity": 3, "total_price": 377.25, "status": "paid", "order_date": "2025-04-24T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1262"}}
+{"order_id": "o1262", "user_id": "u1021", "product_id": "p1061", "quantity": 1, "total_price": 226.52, "status": "cancelled", "order_date": "2025-07-21T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1263"}}
+{"order_id": "o1263", "user_id": "u1043", "product_id": "p1044", "quantity": 3, "total_price": 1207.26, "status": "shipped", "order_date": "2026-02-05T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1264"}}
+{"order_id": "o1264", "user_id": "u1015", "product_id": "p1087", "quantity": 4, "total_price": 5762.4, "status": "delivered", "order_date": "2025-04-21T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1265"}}
+{"order_id": "o1265", "user_id": "u1029", "product_id": "p1001", "quantity": 1, "total_price": 140.33, "status": "cancelled", "order_date": "2026-01-17T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1266"}}
+{"order_id": "o1266", "user_id": "u1040", "product_id": "p1016", "quantity": 5, "total_price": 7516.6, "status": "created", "order_date": "2025-07-21T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1267"}}
+{"order_id": "o1267", "user_id": "u1011", "product_id": "p1086", "quantity": 1, "total_price": 239.2, "status": "delivered", "order_date": "2025-09-06T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1268"}}
+{"order_id": "o1268", "user_id": "u1011", "product_id": "p1022", "quantity": 3, "total_price": 4659.99, "status": "delivered", "order_date": "2025-11-24T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1269"}}
+{"order_id": "o1269", "user_id": "u1033", "product_id": "p1072", "quantity": 5, "total_price": 4903.85, "status": "cancelled", "order_date": "2025-01-01T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1270"}}
+{"order_id": "o1270", "user_id": "u1001", "product_id": "p1019", "quantity": 5, "total_price": 7258.2, "status": "created", "order_date": "2025-05-04T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1271"}}
+{"order_id": "o1271", "user_id": "u1032", "product_id": "p1058", "quantity": 1, "total_price": 938.74, "status": "created", "order_date": "2025-03-08T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1272"}}
+{"order_id": "o1272", "user_id": "u1000", "product_id": "p1024", "quantity": 1, "total_price": 1326.84, "status": "created", "order_date": "2026-01-26T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1273"}}
+{"order_id": "o1273", "user_id": "u1038", "product_id": "p1061", "quantity": 4, "total_price": 6661.04, "status": "paid", "order_date": "2025-07-11T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1274"}}
+{"order_id": "o1274", "user_id": "u1028", "product_id": "p1008", "quantity": 5, "total_price": 6139.0, "status": "cancelled", "order_date": "2025-10-02T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1275"}}
+{"order_id": "o1275", "user_id": "u1040", "product_id": "p1033", "quantity": 4, "total_price": 1498.84, "status": "created", "order_date": "2025-02-03T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1276"}}
+{"order_id": "o1276", "user_id": "u1001", "product_id": "p1084", "quantity": 3, "total_price": 3393.81, "status": "cancelled", "order_date": "2025-07-03T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1277"}}
+{"order_id": "o1277", "user_id": "u1023", "product_id": "p1002", "quantity": 4, "total_price": 4632.76, "status": "paid", "order_date": "2025-12-18T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1278"}}
+{"order_id": "o1278", "user_id": "u1018", "product_id": "p1024", "quantity": 1, "total_price": 1439.35, "status": "paid", "order_date": "2025-11-18T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1279"}}
+{"order_id": "o1279", "user_id": "u1033", "product_id": "p1088", "quantity": 5, "total_price": 5177.5, "status": "shipped", "order_date": "2025-10-10T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1280"}}
+{"order_id": "o1280", "user_id": "u1039", "product_id": "p1077", "quantity": 3, "total_price": 629.49, "status": "shipped", "order_date": "2025-03-01T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1281"}}
+{"order_id": "o1281", "user_id": "u1048", "product_id": "p1050", "quantity": 2, "total_price": 434.88, "status": "created", "order_date": "2025-11-13T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1282"}}
+{"order_id": "o1282", "user_id": "u1036", "product_id": "p1026", "quantity": 2, "total_price": 3506.98, "status": "shipped", "order_date": "2025-11-11T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1283"}}
+{"order_id": "o1283", "user_id": "u1036", "product_id": "p1081", "quantity": 1, "total_price": 1095.12, "status": "created", "order_date": "2025-05-12T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1284"}}
+{"order_id": "o1284", "user_id": "u1010", "product_id": "p1070", "quantity": 4, "total_price": 732.12, "status": "created", "order_date": "2025-04-05T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1285"}}
+{"order_id": "o1285", "user_id": "u1007", "product_id": "p1025", "quantity": 2, "total_price": 3862.58, "status": "shipped", "order_date": "2025-02-18T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1286"}}
+{"order_id": "o1286", "user_id": "u1005", "product_id": "p1027", "quantity": 1, "total_price": 879.41, "status": "cancelled", "order_date": "2026-01-23T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1287"}}
+{"order_id": "o1287", "user_id": "u1011", "product_id": "p1096", "quantity": 3, "total_price": 237.75, "status": "shipped", "order_date": "2025-08-22T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1288"}}
+{"order_id": "o1288", "user_id": "u1001", "product_id": "p1092", "quantity": 3, "total_price": 636.33, "status": "shipped", "order_date": "2025-09-08T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1289"}}
+{"order_id": "o1289", "user_id": "u1043", "product_id": "p1067", "quantity": 2, "total_price": 770.28, "status": "shipped", "order_date": "2025-04-27T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1290"}}
+{"order_id": "o1290", "user_id": "u1028", "product_id": "p1018", "quantity": 5, "total_price": 5026.4, "status": "cancelled", "order_date": "2025-06-17T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1291"}}
+{"order_id": "o1291", "user_id": "u1048", "product_id": "p1011", "quantity": 1, "total_price": 1332.22, "status": "cancelled", "order_date": "2025-05-19T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1292"}}
+{"order_id": "o1292", "user_id": "u1041", "product_id": "p1050", "quantity": 2, "total_price": 338.3, "status": "created", "order_date": "2025-06-25T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1293"}}
+{"order_id": "o1293", "user_id": "u1016", "product_id": "p1059", "quantity": 1, "total_price": 1499.87, "status": "delivered", "order_date": "2025-02-08T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1294"}}
+{"order_id": "o1294", "user_id": "u1035", "product_id": "p1003", "quantity": 5, "total_price": 1074.8, "status": "shipped", "order_date": "2025-04-20T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1295"}}
+{"order_id": "o1295", "user_id": "u1036", "product_id": "p1079", "quantity": 1, "total_price": 1739.87, "status": "paid", "order_date": "2025-06-30T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1296"}}
+{"order_id": "o1296", "user_id": "u1007", "product_id": "p1001", "quantity": 4, "total_price": 812.92, "status": "cancelled", "order_date": "2025-02-20T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1297"}}
+{"order_id": "o1297", "user_id": "u1011", "product_id": "p1067", "quantity": 3, "total_price": 3447.48, "status": "shipped", "order_date": "2025-05-22T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1298"}}
+{"order_id": "o1298", "user_id": "u1036", "product_id": "p1040", "quantity": 2, "total_price": 3846.78, "status": "paid", "order_date": "2026-01-31T00:00:00Z"}
+{"index": {"_index": "orders", "_id": "o1299"}}
+{"order_id": "o1299", "user_id": "u1029", "product_id": "p1029", "quantity": 5, "total_price": 8078.05, "status": "cancelled", "order_date": "2025-04-23T00:00:00Z"}

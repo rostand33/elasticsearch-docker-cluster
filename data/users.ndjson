@@ -1,0 +1,100 @@
+{"index": {"_index": "users", "_id": "u1000"}}
+{"user_id": "u1000", "name": "User 0", "email": "user0@example.com", "role": "customer", "country": "Belgium", "created_at": "2025-10-05T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1001"}}
+{"user_id": "u1001", "name": "User 1", "email": "user1@example.com", "role": "manager", "country": "Spain", "created_at": "2025-02-28T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1002"}}
+{"user_id": "u1002", "name": "User 2", "email": "user2@example.com", "role": "manager", "country": "France", "created_at": "2025-09-08T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1003"}}
+{"user_id": "u1003", "name": "User 3", "email": "user3@example.com", "role": "admin", "country": "France", "created_at": "2025-07-17T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1004"}}
+{"user_id": "u1004", "name": "User 4", "email": "user4@example.com", "role": "manager", "country": "Germany", "created_at": "2025-05-27T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1005"}}
+{"user_id": "u1005", "name": "User 5", "email": "user5@example.com", "role": "admin", "country": "France", "created_at": "2025-04-09T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1006"}}
+{"user_id": "u1006", "name": "User 6", "email": "user6@example.com", "role": "admin", "country": "Germany", "created_at": "2025-07-02T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1007"}}
+{"user_id": "u1007", "name": "User 7", "email": "user7@example.com", "role": "customer", "country": "Belgium", "created_at": "2025-01-18T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1008"}}
+{"user_id": "u1008", "name": "User 8", "email": "user8@example.com", "role": "admin", "country": "Germany", "created_at": "2025-02-10T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1009"}}
+{"user_id": "u1009", "name": "User 9", "email": "user9@example.com", "role": "admin", "country": "Netherlands", "created_at": "2025-10-04T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1010"}}
+{"user_id": "u1010", "name": "User 10", "email": "user10@example.com", "role": "admin", "country": "Belgium", "created_at": "2025-05-11T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1011"}}
+{"user_id": "u1011", "name": "User 11", "email": "user11@example.com", "role": "admin", "country": "France", "created_at": "2025-10-27T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1012"}}
+{"user_id": "u1012", "name": "User 12", "email": "user12@example.com", "role": "manager", "country": "Italy", "created_at": "2025-03-07T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1013"}}
+{"user_id": "u1013", "name": "User 13", "email": "user13@example.com", "role": "customer", "country": "France", "created_at": "2025-12-05T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1014"}}
+{"user_id": "u1014", "name": "User 14", "email": "user14@example.com", "role": "manager", "country": "France", "created_at": "2025-10-25T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1015"}}
+{"user_id": "u1015", "name": "User 15", "email": "user15@example.com", "role": "customer", "country": "Italy", "created_at": "2025-11-03T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1016"}}
+{"user_id": "u1016", "name": "User 16", "email": "user16@example.com", "role": "manager", "country": "Belgium", "created_at": "2025-04-12T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1017"}}
+{"user_id": "u1017", "name": "User 17", "email": "user17@example.com", "role": "customer", "country": "Belgium", "created_at": "2025-09-29T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1018"}}
+{"user_id": "u1018", "name": "User 18", "email": "user18@example.com", "role": "manager", "country": "Italy", "created_at": "2025-01-22T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1019"}}
+{"user_id": "u1019", "name": "User 19", "email": "user19@example.com", "role": "customer", "country": "Germany", "created_at": "2025-06-13T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1020"}}
+{"user_id": "u1020", "name": "User 20", "email": "user20@example.com", "role": "manager", "country": "France", "created_at": "2025-02-26T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1021"}}
+{"user_id": "u1021", "name": "User 21", "email": "user21@example.com", "role": "manager", "country": "Spain", "created_at": "2025-05-14T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1022"}}
+{"user_id": "u1022", "name": "User 22", "email": "user22@example.com", "role": "customer", "country": "Belgium", "created_at": "2025-04-26T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1023"}}
+{"user_id": "u1023", "name": "User 23", "email": "user23@example.com", "role": "admin", "country": "Netherlands", "created_at": "2026-01-30T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1024"}}
+{"user_id": "u1024", "name": "User 24", "email": "user24@example.com", "role": "admin", "country": "France", "created_at": "2025-06-11T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1025"}}
+{"user_id": "u1025", "name": "User 25", "email": "user25@example.com", "role": "customer", "country": "Spain", "created_at": "2025-12-27T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1026"}}
+{"user_id": "u1026", "name": "User 26", "email": "user26@example.com", "role": "customer", "country": "Spain", "created_at": "2026-01-08T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1027"}}
+{"user_id": "u1027", "name": "User 27", "email": "user27@example.com", "role": "manager", "country": "Italy", "created_at": "2025-10-18T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1028"}}
+{"user_id": "u1028", "name": "User 28", "email": "user28@example.com", "role": "manager", "country": "France", "created_at": "2025-04-14T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1029"}}
+{"user_id": "u1029", "name": "User 29", "email": "user29@example.com", "role": "admin", "country": "Belgium", "created_at": "2025-07-30T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1030"}}
+{"user_id": "u1030", "name": "User 30", "email": "user30@example.com", "role": "customer", "country": "Spain", "created_at": "2025-06-30T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1031"}}
+{"user_id": "u1031", "name": "User 31", "email": "user31@example.com", "role": "admin", "country": "Germany", "created_at": "2025-09-11T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1032"}}
+{"user_id": "u1032", "name": "User 32", "email": "user32@example.com", "role": "customer", "country": "Belgium", "created_at": "2025-03-03T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1033"}}
+{"user_id": "u1033", "name": "User 33", "email": "user33@example.com", "role": "customer", "country": "Belgium", "created_at": "2025-12-06T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1034"}}
+{"user_id": "u1034", "name": "User 34", "email": "user34@example.com", "role": "admin", "country": "Netherlands", "created_at": "2025-09-05T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1035"}}
+{"user_id": "u1035", "name": "User 35", "email": "user35@example.com", "role": "manager", "country": "Germany", "created_at": "2025-02-24T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1036"}}
+{"user_id": "u1036", "name": "User 36", "email": "user36@example.com", "role": "admin", "country": "Germany", "created_at": "2025-06-07T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1037"}}
+{"user_id": "u1037", "name": "User 37", "email": "user37@example.com", "role": "manager", "country": "France", "created_at": "2025-02-21T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1038"}}
+{"user_id": "u1038", "name": "User 38", "email": "user38@example.com", "role": "admin", "country": "France", "created_at": "2025-02-07T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1039"}}
+{"user_id": "u1039", "name": "User 39", "email": "user39@example.com", "role": "customer", "country": "France", "created_at": "2025-07-13T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1040"}}
+{"user_id": "u1040", "name": "User 40", "email": "user40@example.com", "role": "manager", "country": "Italy", "created_at": "2025-06-28T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1041"}}
+{"user_id": "u1041", "name": "User 41", "email": "user41@example.com", "role": "admin", "country": "Belgium", "created_at": "2025-08-04T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1042"}}
+{"user_id": "u1042", "name": "User 42", "email": "user42@example.com", "role": "customer", "country": "Germany", "created_at": "2025-01-24T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1043"}}
+{"user_id": "u1043", "name": "User 43", "email": "user43@example.com", "role": "customer", "country": "Netherlands", "created_at": "2025-05-05T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1044"}}
+{"user_id": "u1044", "name": "User 44", "email": "user44@example.com", "role": "manager", "country": "Netherlands", "created_at": "2025-08-20T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1045"}}
+{"user_id": "u1045", "name": "User 45", "email": "user45@example.com", "role": "admin", "country": "Belgium", "created_at": "2025-12-18T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1046"}}
+{"user_id": "u1046", "name": "User 46", "email": "user46@example.com", "role": "manager", "country": "Germany", "created_at": "2025-08-27T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1047"}}
+{"user_id": "u1047", "name": "User 47", "email": "user47@example.com", "role": "admin", "country": "France", "created_at": "2025-07-02T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1048"}}
+{"user_id": "u1048", "name": "User 48", "email": "user48@example.com", "role": "manager", "country": "Spain", "created_at": "2025-03-19T00:00:00Z"}
+{"index": {"_index": "users", "_id": "u1049"}}
+{"user_id": "u1049", "name": "User 49", "email": "user49@example.com", "role": "customer", "country": "Italy", "created_at": "2025-11-26T00:00:00Z"}
