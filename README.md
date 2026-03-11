@@ -162,6 +162,16 @@ docker compose up -d
 
 ---
 
+# Initialize Indices
+
+Run:
+
+```
+./scripts/create_indices.sh
+```
+This will ensure your "armoire" (the index) is perfectly built and labeled before you begin injecting your data.
+
+---
 # Check Cluster Status
 
 Run:
