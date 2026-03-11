@@ -342,8 +342,20 @@ Total: 850+ indexed documents
 
 ---
 
-# Useful Elasticsearch Commands                                                                                                             Cluster health:                                                                                                                             ```                                                                   curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cluster/health?pretty                                                                  ```                                                                                                                                         List nodes:                                                                                                                                 ```                                                                   curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cat/nodes?v      ```                                                                                                                                         List indices:                                                                                                                               ```                                                                   curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cat/indices?v
-`` 
+# Useful Elasticsearch Commands                                                                                                             Cluster health:
+
+```
+curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cluster/health?pretty
+```
+List nodes:
+```
+curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cat/nodes?v
+```
+List indices:
+```
+curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cat/indices?v 
+```
+
 ---
 
 # Learning Goals
