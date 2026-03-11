@@ -87,11 +87,7 @@ elasticsearch-docker-cluster
 |   |-- reset.sh
 |   |-- load-sample-data.sh
 |   |-- create-indexes.sh
-|   |-- inject-users.sh
-|   |-- inject-products.sh
-|   |-- inject-orders.sh
-|   |-- inject-logs.sh
-|   |-- security-logs.sh
+|   
 |-- config
 |
 |-- mappings/
