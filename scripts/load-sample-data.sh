@@ -2,22 +2,78 @@
 
 set -e
 
-if [ -f .env ]; then
-  export $(grep -v '^#' .env | xargs)
-fi
+# ==========================================
+# Script: load-sample-data.sh
+# Description: Bulk import sample data into
+# Elasticsearch indices
+# ==========================================
 
-echo "Creating test index..."
-curl -u elastic:$ELASTIC_PASSWORD -X PUT http://localhost:9200/test-index
+ELASTIC_URL="${ELASTIC_URL:-https://localhost:9200}"
+ELASTIC_USER="${ELASTIC_USER:-elastic}"
+ELASTIC_PASSWORD="${ELASTIC_PASSWORD:-changeme}"
+
+# Pour TLS local auto-signé, garder -k.
+# Si tu utilises un vrai CA, remplace par:
+# CURL_TLS_OPTION="--cacert config/certs/ca/ca.crt"
+CURL_TLS_OPTION="${CURL_TLS_OPTION:--k}"
+
+declare -A DATA_FILES=(
+  ["users"]="data/users.ndjson"
+  ["products"]="data/products.ndjson"
+  ["orders"]="data/orders.ndjson"
+  ["app-logs"]="data/app-logs.ndjson"
+  ["security-logs"]="data/security-logs.ndjson"
+)
+
+INDEXES=("users" "products" "orders" "app-logs" "security-logs")
+
+echo "Checking Elasticsearch connection..."
+curl -s $CURL_TLS_OPTION -u "$ELASTIC_USER:$ELASTIC_PASSWORD" \
+  "$ELASTIC_URL" > /dev/null
+
+echo "Starting bulk ingestion..."
+TOTAL_SUCCESS=0
+
+for index in "${INDEXES[@]}"; do
+  file="${DATA_FILES[$index]}"
+
+  if [[ ! -f "$file" ]]; then
+    echo "File not found: $file"
+    exit 1
+  fi
+
+  echo
+  echo "Importing $index from $file ..."
+
+  RESPONSE=$(curl -s $CURL_TLS_OPTION \
+    -u "$ELASTIC_USER:$ELASTIC_PASSWORD" \
+    -X POST "$ELASTIC_URL/_bulk" \
+    -H "Content-Type: application/x-ndjson" \
+    --data-binary @"$file")
+
+  if echo "$RESPONSE" | grep -q '"errors":true'; then
+    echo "Bulk import failed for index: $index"
+    echo "$RESPONSE"
+    exit 1
+  fi
+
+  SUCCESS_COUNT=$(echo "$RESPONSE" | grep -o '"result":"created"\|"result":"updated"' | wc -l | tr -d ' ')
+  TOTAL_SUCCESS=$((TOTAL_SUCCESS + SUCCESS_COUNT))
+
+  echo "Successfully indexed in $index: $SUCCESS_COUNT documents"
+done
 
 echo
-echo "Adding a sample document..."
-curl -u elastic:$ELASTIC_PASSWORD -X POST http://localhost:9200/test-index/_doc \
-  -H "Content-Type: application/json" \
-  -d '{
-    "title": "Elasticsearch Docker Project",
-    "category": "devops",
-    "created_at": "2026-03-07"
-  }'
+echo "Verifying document counts..."
+for index in "${INDEXES[@]}"; do
+  COUNT=$(curl -s $CURL_TLS_OPTION \
+    -u "$ELASTIC_USER:$ELASTIC_PASSWORD" \
+    "$ELASTIC_URL/$index/_count" \
+    | grep -o '"count":[0-9]*' | cut -d: -f2)
+
+  echo "$index -> $COUNT documents"
+done
 
 echo
-echo "Sample data loaded."
+echo "Total successfully indexed documents: $TOTAL_SUCCESS"
+echo "Bulk ingestion completed successfully."
