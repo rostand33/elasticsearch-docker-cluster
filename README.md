@@ -248,7 +248,7 @@ This stops the containers but keeps the data volumes.
 
 # Reset the Cluster
 
-To completely reset the environment and remove all data:
+To completely reset the environment, remove all data and recreate fresh indices with their mappings in one command:
 
 ```
 ./scripts/reset.sh
@@ -260,6 +260,8 @@ This command removes:
 * networks
 * volumes
 * all Elasticsearch data
+* Deletes existing indices to ensure no data pollution.
+* Recreates all indices
 
 ---
 
@@ -297,7 +299,7 @@ This project demonstrates:
 
 ---
 
-##Data Format
+## Data Format
 
 The data format used in this project is NDJSON (Newline Delimited JSON) compatible with the Elasticsearch Bulk API.
 
