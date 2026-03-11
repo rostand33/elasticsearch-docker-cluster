@@ -21,14 +21,16 @@ The project includes:
 
 # Security
 
-This project can run with Elasticsearch security enabled.
+The cluster uses Elasticsearch’s native security features (X-Pack):
 
-For multi-node clusters, transport layer TLS is required.
-Certificates are generated automatically by the `setup` service and shared with the Elasticsearch nodes through a Docker volume.
+* **Authentication (RBAC)**: Access to the cluster is password-protected. Credentials are managed through environment variables defined in the `.env` file.
+* **Transport Layer (Inter-node)**: TLS encryption is enabled for internal communication between nodes (`es01`, `es02`, `es03`), ensuring cluster integrity.
+* **HTTP Layer (REST API)**: To simplify local development and data ingestion, the REST AThe cluster uses Elasticsearch’s native security features (X-Pack):
 
-Secrets such as passwords are not stored in the repository.
-
-Environment variables are defined in:
+* **Authentication (RBAC)**: Access to the cluster is password-protected. Credentials are managed through environment variables defined in the `.env` file.
+* **Transport Layer (Inter-node)**: TLS encryption is enabled for internal communication between nodes (`es01`, `es02`, `es03`), ensuring cluster integrity.
+* **HTTP Layer (REST API)**: To simplify local development and data ingestion, the REST API is accessible via **HTTP**.  
+  *Note: In production, TLS should also be enabled for the HTTP layer (`xpack.security.http.ssl.enabled: true`).*
 
 ```
 .env
@@ -87,11 +89,7 @@ elasticsearch-docker-cluster
 |   |-- reset.sh
 |   |-- load-sample-data.sh
 |   |-- create-indexes.sh
-|   |-- inject-users.sh
-|   |-- inject-products.sh
-|   |-- inject-orders.sh
-|   |-- inject-logs.sh
-|   |-- security-logs.sh
+|   
 |-- config
 |
 |-- mappings/
@@ -162,6 +160,16 @@ docker compose up -d
 
 ---
 
+# Initialize Indices
+
+Run:
+
+```
+./scripts/create_indices.sh
+```
+This will ensure your "armoire" (the index) is perfectly built and labeled before you begin injecting your data.
+
+---
 # Check Cluster Status
 
 Run:
@@ -218,10 +226,21 @@ password: YOUR_PASSWORD
 
 # Load Sample Data
 
-You can load a sample index and document:
+To populate your indices with initial data, run the following command. 
+It uses the Elasticsearch **_bulk API** to efficiently load all files from the `/data` folder:
 
 ```
 ./scripts/load-sample-data.sh
+```
+The ingestion script:
+
+* Loads all `.ndjson` files from the `data/` directory.
+* Sends the documents to Elasticsearch using the **Bulk API** (`POST /_bulk`).
+* Displays the number of **successfully indexed documents**.
+
+###### And you can test whith this`:
+```
+curl -k -u elastic:$ELASTIC_PASSWORD "https://localhost:9200/_cat/indices?v"
 ```
 
 ---
@@ -238,7 +257,7 @@ This stops the containers but keeps the data volumes.
 
 # Reset the Cluster
 
-To completely reset the environment and remove all data:
+To completely reset the environment, remove all data and recreate fresh indices with their mappings in one command:
 
 ```
 ./scripts/reset.sh
@@ -250,44 +269,12 @@ This command removes:
 * networks
 * volumes
 * all Elasticsearch data
+* Deletes existing indices to ensure no data pollution.
+* Recreates all indices
 
 ---
 
-# Useful Elasticsearch Commands
-
-Cluster health:
-
-```
-curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cluster/health?pretty
-```
-
-List nodes:
-
-```
-curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cat/nodes?v
-```
-
-List indices:
-
-```
-curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cat/indices?v
-```
-
----
-
-# Learning Goals
-
-This project demonstrates:
-
-* Elasticsearch cluster deployment
-* Docker container orchestration
-* Environment configuration with `.env`
-* Basic DevOps scripting
-* Elasticsearch API usage
-
----
-
-##Data Format
+## Data Format
 
 The data format used in this project is NDJSON (Newline Delimited JSON) compatible with the Elasticsearch Bulk API.
 
@@ -360,28 +347,32 @@ The dataset includes:
 
 Total: 850+ indexed documents
 
-### Usage
+---
 
-Create the indices:
+# Useful Elasticsearch Commands                                                                                                             Cluster health:
 
-./scripts/create-indexes.sh
+```
+curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cluster/health?pretty
+```
+List nodes:
+```
+curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cat/nodes?v
+```
+List indices:
+```
+curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cat/indices?v 
+```
 
-Import the data:
+---
 
-./scripts/inject-data.sh
+# Learning Goals
 
-##### This script creates the following indices using predefined mappings:
+This project demonstrates:
 
-users
+* Elasticsearch cluster deployment
+* Docker container orchestration
+* Environment configuration with `.env`
+* Basic DevOps scripting
+* Elasticsearch API usage
 
-products
-
-orders
-
-app-logs
-
-security-logs
-
-Verify:
-
-curl localhost:9200/_cat/indices?v
+---

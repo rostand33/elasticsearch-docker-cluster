@@ -15,4 +15,21 @@ docker compose down -v --remove-orphans
 echo "Starting fresh cluster..."
 docker compose up -d
 
-echo "Cluster reset and restarted."
+echo "Waiting for Elasticsearch to start..."
+sleep 20
+
+echo "Creating indices..."
+./scripts/create-indexes.sh
+
+echo "Loading sample data..."
+./scripts/load-sample-data.sh
+
+echo "Checking indexed documents..."
+
+curl -s localhost:9200/users/_count
+curl -s localhost:9200/products/_count
+curl -s localhost:9200/orders/_count
+curl -s localhost:9200/app-logs/_count
+curl -s localhost:9200/security-logs/_count
+
+echo "Cluster reset and data reloaded successfully."
