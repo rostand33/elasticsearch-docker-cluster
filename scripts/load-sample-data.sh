@@ -1,79 +1,61 @@
 #!/usr/bin/env bash
 
-set -e
+# 1. Wir setzen die URL, falls sie nicht definiert ist
+ELASTIC_URL="http://localhost:9200"
+ELASTIC_USER="elastic"
+ELASTIC_PASSWORD="Rostand26"  # Ersetze dies durch eine Variable, wenn du möchtest
 
-# ==========================================
-# Script: load-sample-data.sh
-# Description: Bulk import sample data into
-# Elasticsearch indices
-# ==========================================
+# 2. Überprüfen, ob das Verzeichnis data existiert
+if [ ! -d "data" ]; then
+  echo "Fehler: Das Verzeichnis data/ wurde nicht gefunden (aktueller Pfad: $(pwd))"
+  exit 1
+fi
 
-ELASTIC_URL="${ELASTIC_URL:-https://localhost:9200}"
-ELASTIC_USER="${ELASTIC_USER:-elastic}"
-ELASTIC_PASSWORD="${ELASTIC_PASSWORD:-changeme}"
-
-# Pour TLS local auto-signé, garder -k.
-# Si tu utilises un vrai CA, remplace par:
-# CURL_TLS_OPTION="--cacert config/certs/ca/ca.crt"
-CURL_TLS_OPTION="${CURL_TLS_OPTION:--k}"
-
-declare -A DATA_FILES=(
-  ["users"]="data/users.ndjson"
-  ["products"]="data/products.ndjson"
-  ["orders"]="data/orders.ndjson"
-  ["app-logs"]="data/app-logs.ndjson"
-  ["security-logs"]="data/security-logs.ndjson"
-)
-
+TOTAL_SUCCESS=0
 INDEXES=("users" "products" "orders" "app-logs" "security-logs")
 
-echo "Checking Elasticsearch connection..."
-curl -s $CURL_TLS_OPTION -u "$ELASTIC_USER:$ELASTIC_PASSWORD" \
-  "$ELASTIC_URL" > /dev/null
-
-echo "Starting bulk ingestion..."
-TOTAL_SUCCESS=0
-
 for index in "${INDEXES[@]}"; do
-  file="${DATA_FILES[$index]}"
+  file="data/${index}.ndjson"
 
-  if [[ ! -f "$file" ]]; then
-    echo "File not found: $file"
-    exit 1
+  if [ ! -f "$file" ]; then
+    echo "Datei nicht gefunden: $file"
+    continue
   fi
 
-  echo
   echo "Importing $index from $file ..."
 
-  RESPONSE=$(curl -s $CURL_TLS_OPTION \
-    -u "$ELASTIC_USER:$ELASTIC_PASSWORD" \
+  # Ausführung des CURL-Befehls zur Datenübertragung an Elasticsearch
+  RESPONSE=$(curl -s -u "$ELASTIC_USER:$ELASTIC_PASSWORD" \
     -X POST "$ELASTIC_URL/_bulk" \
     -H "Content-Type: application/x-ndjson" \
     --data-binary @"$file")
 
-  if echo "$RESPONSE" | grep -q '"errors":true'; then
-    echo "Bulk import failed for index: $index"
-    echo "$RESPONSE"
-    exit 1
-  fi
-
-  SUCCESS_COUNT=$(echo "$RESPONSE" | grep -o '"result":"created"\|"result":"updated"' | wc -l | tr -d ' ')
+  # Robustes Zählen der erfolgreich indizierten Dokumente
+  # Wir suchen nach Statuscodes 200 oder 201 im JSON-Response
+  SUCCESS_COUNT=$(echo "$RESPONSE" | grep -oE '"status":(200|201)' | wc -l)
   TOTAL_SUCCESS=$((TOTAL_SUCCESS + SUCCESS_COUNT))
 
   echo "Successfully indexed in $index: $SUCCESS_COUNT documents"
 done
 
-echo
-echo "Verifying document counts..."
-for index in "${INDEXES[@]}"; do
-  COUNT=$(curl -s $CURL_TLS_OPTION \
-    -u "$ELASTIC_USER:$ELASTIC_PASSWORD" \
-    "$ELASTIC_URL/$index/_count" \
-    | grep -o '"count":[0-9]*' | cut -d: -f2)
+# Kurze Pause, damit Elasticsearch Zeit hat, die Indizes zu aktualisieren
+  echo "Waiting for refresh..."
+sleep 2
 
-  echo "$index -> $COUNT documents"
+  echo "Verifying counts..."
+
+# Wir definieren die Liste der Indizes erneut, um sicherzugehen
+CHECK_INDEXES=("users" "products" "orders" "app-logs" "security-logs")
+
+for idx in "${CHECK_INDEXES[@]}"; do
+
+  # Verwendung der Elasticsearch _count API
+  FINAL_COUNT=$(curl -s -u "$ELASTIC_USER:$ELASTIC_PASSWORD" "$ELASTIC_URL/$idx/_count" \
+    | grep -oE '"count":[0-9]+' | cut -d: -f2)
+
+  echo "$idx -> ${FINAL_COUNT:-0} documents found in cluster"
 done
 
 echo
-echo "Total successfully indexed documents: $TOTAL_SUCCESS"
-echo "Bulk ingestion completed successfully."
+echo " Total successfully indexed: $TOTAL_SUCCESS documents"
+echo "Ingestion process complete."

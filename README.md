@@ -21,14 +21,16 @@ The project includes:
 
 # Security
 
-This project can run with Elasticsearch security enabled.
+The cluster uses Elasticsearch’s native security features (X-Pack):
 
-For multi-node clusters, transport layer TLS is required.
-Certificates are generated automatically by the `setup` service and shared with the Elasticsearch nodes through a Docker volume.
+* **Authentication (RBAC)**: Access to the cluster is password-protected. Credentials are managed through environment variables defined in the `.env` file.
+* **Transport Layer (Inter-node)**: TLS encryption is enabled for internal communication between nodes (`es01`, `es02`, `es03`), ensuring cluster integrity.
+* **HTTP Layer (REST API)**: To simplify local development and data ingestion, the REST AThe cluster uses Elasticsearch’s native security features (X-Pack):
 
-Secrets such as passwords are not stored in the repository.
-
-Environment variables are defined in:
+* **Authentication (RBAC)**: Access to the cluster is password-protected. Credentials are managed through environment variables defined in the `.env` file.
+* **Transport Layer (Inter-node)**: TLS encryption is enabled for internal communication between nodes (`es01`, `es02`, `es03`), ensuring cluster integrity.
+* **HTTP Layer (REST API)**: To simplify local development and data ingestion, the REST API is accessible via **HTTP**.  
+  *Note: In production, TLS should also be enabled for the HTTP layer (`xpack.security.http.ssl.enabled: true`).*
 
 ```
 .env
