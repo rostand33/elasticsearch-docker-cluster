@@ -267,40 +267,6 @@ This command removes:
 
 ---
 
-# Useful Elasticsearch Commands
-
-Cluster health:
-
-```
-curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cluster/health?pretty
-```
-
-List nodes:
-
-```
-curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cat/nodes?v
-```
-
-List indices:
-
-```
-curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cat/indices?v
-```
-
----
-
-# Learning Goals
-
-This project demonstrates:
-
-* Elasticsearch cluster deployment
-* Docker container orchestration
-* Environment configuration with `.env`
-* Basic DevOps scripting
-* Elasticsearch API usage
-
----
-
 ## Data Format
 
 The data format used in this project is NDJSON (Newline Delimited JSON) compatible with the Elasticsearch Bulk API.
@@ -374,28 +340,20 @@ The dataset includes:
 
 Total: 850+ indexed documents
 
-### Usage
+---
 
-Create the indices:
+# Useful Elasticsearch Commands                                                                                                             Cluster health:                                                                                                                             ```                                                                   curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cluster/health?pretty                                                                  ```                                                                                                                                         List nodes:                                                                                                                                 ```                                                                   curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cat/nodes?v      ```                                                                                                                                         List indices:                                                                                                                               ```                                                                   curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cat/indices?v
+`` 
+---
 
-./scripts/create-indexes.sh
+# Learning Goals
 
-Import the data:
+This project demonstrates:
 
-./scripts/inject-data.sh
+* Elasticsearch cluster deployment
+* Docker container orchestration
+* Environment configuration with `.env`
+* Basic DevOps scripting
+* Elasticsearch API usage
 
-##### This script creates the following indices using predefined mappings:
-
-users
-
-products
-
-orders
-
-app-logs
-
-security-logs
-
-Verify:
-
-curl localhost:9200/_cat/indices?v
+---
