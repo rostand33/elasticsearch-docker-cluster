@@ -236,6 +236,11 @@ The ingestion script:
 * Sends the documents to Elasticsearch using the **Bulk API** (`POST /_bulk`).
 * Displays the number of **successfully indexed documents**.
 
+###### And you can test whith this`:
+```
+curl -k -u elastic:$ELASTIC_PASSWORD "https://localhost:9200/_cat/indices?v"
+```
+
 ---
 
 # Stop the Cluster
