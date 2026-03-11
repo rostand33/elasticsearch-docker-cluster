@@ -228,11 +228,17 @@ password: YOUR_PASSWORD
 
 # Load Sample Data
 
-You can load a sample index and document:
+To populate your indices with initial data, run the following command. 
+It uses the Elasticsearch **_bulk API** to efficiently load all files from the `/data` folder:
 
 ```
 ./scripts/load-sample-data.sh
 ```
+The ingestion script:
+
+* Loads all `.ndjson` files from the `data/` directory.
+* Sends the documents to Elasticsearch using the **Bulk API** (`POST /_bulk`).
+* Displays the number of **successfully indexed documents**.
 
 ---
 
