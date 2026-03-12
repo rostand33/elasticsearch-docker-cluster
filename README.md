@@ -62,8 +62,11 @@ Before running this project, make sure you have installed:
 
 * Docker
 * Docker Compose
+* Terminal / Command Line  (required to execute the project scripts and Docker commands.)
 
-Check installation:
+###Check installation
+
+Open a terminal and run:
 
 ```
 docker --version
@@ -100,11 +103,11 @@ elasticsearch-docker-cluster
 |   |-- security-logs.json
 |
 |-- data/
-|   |-- users.ndjson
-|   |-- products.ndjson
-|   |-- orders.ndjson
-|   |-- app-logs.ndjson
-|   |-- security-logs.ndjson
+    |-- users.ndjson
+    |-- products.ndjson
+    |-- orders.ndjson
+    |-- app-logs.ndjson
+    |-- security-logs.ndjson
 
 
 ```
@@ -159,17 +162,6 @@ docker compose up -d
 ```
 
 ---
-
-# Initialize Indices
-
-Run:
-
-```
-./scripts/create_indices.sh
-```
-This will ensure your "armoire" (the index) is perfectly built and labeled before you begin injecting your data.
-
----
 # Check Cluster Status
 
 Run:
@@ -183,44 +175,16 @@ This will display:
 * cluster health
 * active nodes
 
-You can also test manually:
-
-```
-curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cluster/health?pretty
-```
-
 ---
 
-# Access Elasticsearch
+# Initialize Indices
 
-Open:
+Run:
 
-```
-http://localhost:9200
-```
-
-Example request:
-
-```
-curl -u elastic:YOUR_PASSWORD http://localhost:9200
-```
-
----
-
-# Access Kibana
-
-Open your browser:
-
-```
-http://localhost:5601
-```
-
-Login with:
-
-```
-username: elastic
-password: YOUR_PASSWORD
-```
+´´´
+./scripts/create_indices.sh
+´´´
+This will ensure your "armoire" (the index) is perfectly built and labeled before you begin injecting your data.
 
 ---
 
@@ -232,16 +196,12 @@ It uses the Elasticsearch **_bulk API** to efficiently load all files from the `
 ```
 ./scripts/load-sample-data.sh
 ```
+
 The ingestion script:
 
 * Loads all `.ndjson` files from the `data/` directory.
 * Sends the documents to Elasticsearch using the **Bulk API** (`POST /_bulk`).
 * Displays the number of **successfully indexed documents**.
-
-###### And you can test whith this`:
-```
-curl -k -u elastic:$ELASTIC_PASSWORD "https://localhost:9200/_cat/indices?v"
-```
 
 ---
 
@@ -272,6 +232,34 @@ This command removes:
 * Deletes existing indices to ensure no data pollution.
 * Recreates all indices
 
+---
+
+# Access Kibana
+
+Open your browser:
+
+```
+http://localhost:5601
+```
+Login with:
+
+```
+username: elastic
+password: YOUR_PASSWORD
+```
+
+### Check if Kibana is ready
+
+You can verify that Kibana is running with:
+
+```bash
+docker ps kibana
+```
+or open in your browser:
+
+```
+http://localhost:5601/status
+```
 ---
 
 ## Data Format
@@ -349,8 +337,13 @@ Total: 850+ indexed documents
 
 ---
 
-# Useful Elasticsearch Commands                                                                                                             Cluster health:
+# Useful Elasticsearch Commands
 
+You can test Elasticsearch manually using the following commands.
+
+**Important:** Replace `YOUR_PASSWORD` with the password defined in your `.env` file.
+
+Cluster health:
 ```
 curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cluster/health?pretty
 ```
@@ -374,5 +367,6 @@ This project demonstrates:
 * Environment configuration with `.env`
 * Basic DevOps scripting
 * Elasticsearch API usage
+* visualization of data
 
 ---
