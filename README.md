@@ -85,6 +85,9 @@ elasticsearch-docker-cluster
 |-- .env.example
 |-- .gitignore
 |
+|-- screenshots
+|    |--dashboard.png
+|
 |-- scripts
 |   |-- start-cluster.sh
 |   |-- stop-cluster.sh
@@ -336,7 +339,52 @@ The dataset includes:
 Total: 850+ indexed documents
 
 ---
+## 📊 Data Exploration in Kibana
 
+Once Kibana is running, you can explore the indexed data using the **Discover** tool.
+
+
+1. **Open Discover**
+
+In the main menu (≡) at the top left, navigate to:
+
+```
+Analytics → Discove
+```
+
+2. **Select the Data View**
+
+In the left panel, select the data view corresponding to your index (for example `users*`).
+
+3. **Explore the Data**
+
+- The **histogram at the top** shows the distribution of documents over time.
+- The **table below** displays the indexed documents in JSON format.
+
+### Useful Tips
+
+- **Search and filter data**
+
+Use the search bar  to filter documents. Example:
+
+```
+country = Germany
+```
+result 9 JSON doc
+
+# Kibana Dashboard Overview
+
+![Kibana Dashboard](./screenshots/dashboard.png)
+
+*Figure 1 — Example visualization showing the geographic distribution and roles of indexed users.*
+
+The dashboard uses **Kibana Lens** to display:
+
+- Distribution of users by **country**
+- Distribution by **role** (admin, manager, customer)
+- Aggregated statistics based on indexed documents
+
+---
 # Useful Elasticsearch Commands
 
 You can test Elasticsearch manually using the following commands.
