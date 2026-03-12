@@ -339,7 +339,7 @@ The dataset includes:
 Total: 850+ indexed documents
 
 ---
-## 📊 Data Exploration in Kibana
+## Data Exploration in Kibana
 
 Once Kibana is running, you can explore the indexed data using the **Discover** tool.
 
@@ -376,7 +376,7 @@ result 9 JSON doc
 
 ![Kibana Dashboard](./screenshots/dashboard.png)
 
-*Figure 1 — Example visualization showing the geographic distribution and roles of indexed users.*
+*Example visualization showing the geographic distribution and roles of indexed users.*
 
 The dashboard uses **Kibana Lens** to display:
 
