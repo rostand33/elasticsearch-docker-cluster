@@ -62,8 +62,11 @@ Before running this project, make sure you have installed:
 
 * Docker
 * Docker Compose
+* Terminal / Command Line  (required to execute the project scripts and Docker commands.)
 
-Check installation:
+###Check installation
+
+Open a terminal and run:
 
 ```
 docker --version
@@ -81,6 +84,9 @@ elasticsearch-docker-cluster
 |-- README.md
 |-- .env.example
 |-- .gitignore
+|
+|-- screenshots
+|    |--dashboard.png
 |
 |-- scripts
 |   |-- start-cluster.sh
@@ -100,11 +106,11 @@ elasticsearch-docker-cluster
 |   |-- security-logs.json
 |
 |-- data/
-|   |-- users.ndjson
-|   |-- products.ndjson
-|   |-- orders.ndjson
-|   |-- app-logs.ndjson
-|   |-- security-logs.ndjson
+    |-- users.ndjson
+    |-- products.ndjson
+    |-- orders.ndjson
+    |-- app-logs.ndjson
+    |-- security-logs.ndjson
 
 
 ```
@@ -159,17 +165,6 @@ docker compose up -d
 ```
 
 ---
-
-# Initialize Indices
-
-Run:
-
-```
-./scripts/create_indices.sh
-```
-This will ensure your "armoire" (the index) is perfectly built and labeled before you begin injecting your data.
-
----
 # Check Cluster Status
 
 Run:
@@ -183,44 +178,16 @@ This will display:
 * cluster health
 * active nodes
 
-You can also test manually:
-
-```
-curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cluster/health?pretty
-```
-
 ---
 
-# Access Elasticsearch
+# Initialize Indices
 
-Open:
+Run:
 
-```
-http://localhost:9200
-```
-
-Example request:
-
-```
-curl -u elastic:YOUR_PASSWORD http://localhost:9200
-```
-
----
-
-# Access Kibana
-
-Open your browser:
-
-```
-http://localhost:5601
-```
-
-Login with:
-
-```
-username: elastic
-password: YOUR_PASSWORD
-```
+´´´
+./scripts/create_indices.sh
+´´´
+This will ensure your "armoire" (the index) is perfectly built and labeled before you begin injecting your data.
 
 ---
 
@@ -232,16 +199,12 @@ It uses the Elasticsearch **_bulk API** to efficiently load all files from the `
 ```
 ./scripts/load-sample-data.sh
 ```
+
 The ingestion script:
 
 * Loads all `.ndjson` files from the `data/` directory.
 * Sends the documents to Elasticsearch using the **Bulk API** (`POST /_bulk`).
 * Displays the number of **successfully indexed documents**.
-
-###### And you can test whith this`:
-```
-curl -k -u elastic:$ELASTIC_PASSWORD "https://localhost:9200/_cat/indices?v"
-```
 
 ---
 
@@ -272,6 +235,34 @@ This command removes:
 * Deletes existing indices to ensure no data pollution.
 * Recreates all indices
 
+---
+
+# Access Kibana
+
+Open your browser:
+
+```
+http://localhost:5601
+```
+Login with:
+
+```
+username: elastic
+password: YOUR_PASSWORD
+```
+
+### Check if Kibana is ready
+
+You can verify that Kibana is running with:
+
+```bash
+docker ps kibana
+```
+or open in your browser:
+
+```
+http://localhost:5601/status
+```
 ---
 
 ## Data Format
@@ -348,9 +339,59 @@ The dataset includes:
 Total: 850+ indexed documents
 
 ---
+## Data Exploration in Kibana
 
-# Useful Elasticsearch Commands                                                                                                             Cluster health:
+Once Kibana is running, you can explore the indexed data using the **Discover** tool.
 
+
+1. **Open Discover**
+
+In the main menu (≡) at the top left, navigate to:
+
+```
+Analytics → Discove
+```
+
+2. **Select the Data View**
+
+In the left panel, select the data view corresponding to your index (for example `users*`).
+
+3. **Explore the Data**
+
+- The **histogram at the top** shows the distribution of documents over time.
+- The **table below** displays the indexed documents in JSON format.
+
+### Useful Tips
+
+- **Search and filter data**
+
+Use the search bar  to filter documents. Example:
+
+```
+country = Germany
+```
+result 9 JSON doc
+
+# Kibana Dashboard Overview
+
+![Kibana Dashboard](./screenshots/dashboard.png)
+
+*Example visualization showing the geographic distribution and roles of indexed users.*
+
+The dashboard uses **Kibana Lens** to display:
+
+- Distribution of users by **country**
+- Distribution by **role** (admin, manager, customer)
+- Aggregated statistics based on indexed documents
+
+---
+# Useful Elasticsearch Commands
+
+You can test Elasticsearch manually using the following commands.
+
+**Important:** Replace `YOUR_PASSWORD` with the password defined in your `.env` file.
+
+Cluster health:
 ```
 curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cluster/health?pretty
 ```
@@ -374,5 +415,6 @@ This project demonstrates:
 * Environment configuration with `.env`
 * Basic DevOps scripting
 * Elasticsearch API usage
+* visualization of data
 
 ---
