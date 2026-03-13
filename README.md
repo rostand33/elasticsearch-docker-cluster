@@ -403,6 +403,43 @@ List indices:
 ```
 curl -u elastic:YOUR_PASSWORD http://localhost:9200/_cat/indices?v 
 ```
+## Full-Text Search Example
+
+Elasticsearch supports full-text search using the **`match` query**.
+
+Example: search for users with the name "John".
+
+```
+curl -u elastic:YOUR_PASSWORD -X GET "http://localhost:9200/users/_search?pretty" \
+-H "Content-Type: application/json" \
+-d '{
+  "query": {
+    "match": {
+      "country": "FRanCE"
+    }
+  }
+}'
+```
+
+Or you can also test this query directly in Kibana → Dev Tools Searches admin users in France within a given date range :
+
+```
+GET /users/_search
+{
+  "query": {
+    "bool": {
+      "must": [{ "match": { "country": "France" } }],
+      "filter": [
+        { "term": { "role": "admin" } },
+        { "range": { "created_at": { "gte": "2025-01-01", "lte": "2026-12-31" } } }
+      ]
+    }
+  }
+}
+```
+
+
+The query was successfully tested using both the terminal (`curl`) and Kibana Dev Tools.
 
 ---
 
